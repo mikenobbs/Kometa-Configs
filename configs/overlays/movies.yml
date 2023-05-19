@@ -1,0 +1,9 @@
+######################################################
+#                   Movie Overlays                   #
+######################################################
+
+overlays:
+  IMDb-Top-250:
+    overlay:
+      name: IMDb-Top-250
+    imdb_chart: top_movies
