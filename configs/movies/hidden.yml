@@ -1,0 +1,30 @@
+######################################################
+#              Hidden Movie Collections              #
+######################################################
+
+templates:
+  hidden:
+    optional:
+      - sort
+      - movie
+      - tmdb
+      - user
+      - trakt
+    tmdb_movie: <<movie>>
+    tmdb_collection_details: <<tmdb>>
+    trakt_list: https://trakt.tv/users/<<user>>/lists/<<trakt>>
+    minimum_items: 1
+    collection_mode: hide
+    sort_title: <<sort>>
+
+collections:
+  "Bob's Burgers":
+    template: {name: hidden, movie: 504827}
+  Buffyverse:
+    template: {name: hidden, movie: 10206}
+  Friends:
+    template: {name: hidden, movie: 691179}
+  The Simpsons:
+    template: {name: hidden, movie: 35, sort: Simpsons}
+  South Park:
+    template: {name: hidden, movie: 9473}
