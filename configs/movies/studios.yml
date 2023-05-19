@@ -1,0 +1,46 @@
+######################################################
+#                Studio Collections                  #
+######################################################
+
+templates:
+  studio-search:
+    optional:
+      - include
+      - exclude
+      - ignore
+    plex_search:
+      validate: true
+      all:
+        genre: <<include>>
+        genre.not: <<exclude>>
+        collection.not: <<ignore>>
+        any:
+          studio: <<studio>>
+  studio:
+    optional:
+      - missing
+      - search
+    trakt_list: https://trakt.tv/users/<<user>>/lists/<<trakt>>
+    radarr_add_missing: <<missing>>
+    radarr_search: <<search>>
+
+collections:
+  Disney Live-Action:
+    template: {name: studio, user: redheadjedi, trakt: walt-disney-live-action-movies}
+    summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
+  Disney Pixar:
+    trakt_list: 
+      - https://trakt.tv/users/aeril/lists/toy-story
+      - https://trakt.tv/users/toasterfaerie/lists/pixar
+    radarr_add_missing: true
+    summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios owned by The Walt Disney Company. Pixar began in 1979 and was purchased by Disney in 2006 at a valuation of $7.4 billion. Pixar is best known for its feature films and animated shorts. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
+  Disney Animation:
+    template: {name: studio-search, studio: Disney, include: animation, ignore: "Disney Pixar, Disney Live-Action"}
+    summary: Walt Disney Animation Studios, sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Walt Disney Studios lot in Burbank, California.
+  Marvel Cinematic Universe:
+    tvdb_list: https://thetvdb.com/lists/marvel-cinematic-universe
+    radarr_add_missing: true
+    summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
+  Studio Ghibli:
+    template: {name: studio, user: asterlea, trakt: studio-ghibli}
+    summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
