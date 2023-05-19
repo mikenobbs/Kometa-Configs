@@ -1,0 +1,33 @@
+######################################################
+#                People Collections                  #
+######################################################
+
+templates:
+  director:
+    smart_filter:
+      director: tmdb
+      sort_by: release.asc
+      validate: true
+    tmdb_person: <<person>>
+    sort_title: ++<<collection_name>>
+  actor:
+    smart_filter:
+      actor: tmdb
+      sort_by: release.asc
+      validate: true
+    tmdb_person: <<person>>
+    sort_title: ++<<collection_name>>
+    
+collections: 
+  Christopher Nolan:
+    template: {name: director, person: 525}
+  The Coen Brothers:
+    template: {name: director, person: "1223, 1224"}
+    summary: Joel and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody.
+    sort_title: ++Coen Brothers
+  Leonardo DiCaprio:
+    template: {name: actor, person: 6193}
+  Quentin Tarantino:
+    template: {name: director, person: 138}
+  Wes Anderson:
+    template: {name: director, person: 5655}
