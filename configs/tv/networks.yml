@@ -1,0 +1,23 @@
+######################################################
+#                Network Collections                 #
+######################################################
+
+templates:
+  network:
+    smart_filter:
+      sort_by: title.asc
+      validate: false
+      any:
+        network: <<network>>
+    summary: Collection of shows streaming on <<collection_name>>.
+    sort_title: ++<<collection_name>>
+
+collections:
+  Netflix:
+    template: { name: network, network: "Netflix" }
+  Amazon Prime:
+    template: { name: network, network: "Amazon, Amazon Prime Video, Prime Video, Amazon Freevee" }
+  Disney+:
+    template: { name: network, network: "Disney Channel, Disney Channel (UK), Disney Junior, Disney XD, Disney+, Disney+ Hostar" }
+  Apple TV+:
+    template: { name: network, network: "Apple Music, Apple TV+, iTunes Store" }
