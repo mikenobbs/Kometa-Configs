@@ -1,0 +1,103 @@
+######################################################
+#                   TV Collections                   #
+######################################################
+
+templates:
+  collection:
+    optional:
+      - show
+      - tvdb
+      - user
+      - trakt
+      - sort
+    tmdb_show: <<show>>
+    tvdb_list_details: https://thetvdb.com/lists/<<tvdb>>
+    trakt_list_details: https://trakt.tv/users/<<user>>/lists/<<trakt>>
+    sort_title: <<sort>>
+
+collections:
+  American Story:
+    template: {name: collection, tvdb: 8411}
+    summary: American Story is an American anthology media franchise consisting of several television series. Each series follows a different genre of fiction, with each individual season conceived as a self-contained miniseries, following a different set of characters and settings, and a story line with its own "'beginning, middle, and end.'" Many actors appear in more than one season and series, often playing a new character.
+  "Avatar: The Last Airbender":
+    template: {name: collection, tvdb: 8116}
+  #Back in Time for...:
+    #template: {name: collection, trakt: mikenobbs/lists/back-in-time-for} 
+  Band of Brothers:
+    template: {name: collection, tvdb: band-of-brothers}
+  The Big Bang Theory:
+    template: {name: collection, tvdb: the-big-bang-theory, sort: Big Bang Theory}
+  The Blacklist:
+    template: {name: collection, tvdb: the-blacklist, sort: Blacklist}
+    summary: "The Blacklist is an American crime thriller television series that follows Raymond 'Red' Reddington, a former U.S. Navy officer turned high-profile criminal who voluntarily surrenders to the FBI after eluding capture for decades. He tells the FBI that he has a list of the most dangerous criminals in the world which he has compiled over the years, and he is willing to inform on their operations in exchange for immunity from prosecution. Additionally, he insists on working exclusively with rookie FBI criminal profiler Elizabeth Keen. A spin-off, The Blacklist: Redemption, ran for one season and followed Elizabeth's husband, Tom Keen."
+  Bosch:
+    template: {name: collection, tvdb: bosch}
+    summary: Bosch is an American police procedural series starring Titus Welliver as Los Angeles Police Department detective Harry Bosch. The show takes its inspiration from the Michael Connelly book series.
+  The Boys:
+    template: {name: collection, tvdb: the-boys}
+    summary: The Boys is an American media franchise based on the comic book series of the same name. Consisting of action-drama/satirical black comedy superhero streaming television series which follow the residents of a world where superpowered individuals called Supes are recognized as heroes by the general public and work for a powerful corporation known as Vought International, which markets, monetizes, and (secretly) creates them, with most being selfish and corrupt outside of their heroic personas.
+  Breaking Bad:
+    template: {name: collection, tvdb: breaking-bad, show: "90746, 158704"}
+    summary: "Breaking Bad revolves around a terminally ill chemistry teacher, Walter White, who teams up with a former student, Jesse Pinkman, to manufacture crystal meth to secure his family's future. El Camino and Better Call Saul cover events that take place before and after the main show respectively."
+  Buffyverse:
+    template: {name: collection, tvdb: buffyverse}
+    summary: The Buffyverse, a term, originally coined by fans, refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set.
+  Clifford the Big Red Dog:
+    template: {name: collection, tvdb: 8749}
+    summary: "Clifford the Big Red Dog is based on an American children's book series first published in 1963, about the adventures of a precocious girl named Emily Elizabeth and her titular pet: a giant, red-furred dog named Clifford."  
+  DC Animated Universe:
+    template: {name: collection, tvdb: dc-animated-universe}
+    summary: "The DC Animated Universe (DCAU) is a shared universe consisting primarily of superhero-based animated television series, based on characters that appear in DC Comics. The shared universe, much like the original DC Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. The DCAU began with Batman: The Animated Series (1992–1995); it ended as a continuing TV series with Justice League Unlimited (2004–2006). The associated media franchise also includes theatrical and direct-to-video feature films, as well as shorts, comic books, video games, and other multimedia adaptations set in the same continuity."
+  Dexter:
+    template: {name: collection, tvdb: dexter}
+    summary: "Dexter is an American crime drama television series. Set in Miami, the series centers on Dexter Morgan, a forensic technician specializing in bloodstain pattern analysis for the fictional Miami Metro Police Department, who leads a secret parallel life as a vigilante serial killer, hunting down murderers who have not been adequately punished by the justice system due to corruption or legal technicalities. Eight years after the series finale Dexter returned in the limited series Dexter: New Blood."
+  Doctor Who:
+    template: {name: collection, tvdb: doctor-who}
+    summary: Doctor Who is a British science-fiction television programme broadcast by the BBC since 1963. The programme depicts the adventures of a Time Lord called the Doctor, an extraterrestrial being who appears to be human. The Doctor explores the universe in a time-travelling space ship called the TARDIS, which appears as a blue British police box.
+  Full House:
+    template: {name: collection, tvdb: full-house}
+    summary: Full House is an American television sitcom about widowed father Danny Tanner who enlists his brother-in-law Jesse Katsopolis and childhood best friend Joey Gladstone to help raise his three daughters, eldest D.J., middle child Stephanie and youngest Michelle in his San Francisco home. A sequel series, Fuller House, aired 11 years later and follows the adult lives of D.J. amd Stephanie.
+  Game of Thrones:
+    template: {name: collection, tvdb: game-of-thrones}
+  Gilmore Girls:
+    template: {name: collection, tvdb: gilmore-girls}
+    summary: "Gilmore Girls is an American comedy-drama television series which has been voted one of the 100 greatest television shows of all time in Time magazine. A four-part miniseries revival Gilmore Girls: A Year in the Life aired 9 years after the origianl series finale."
+  Harley Quinn:
+    template: {name: collection, tvdb: harley-quinn}
+    summary: "Harley Quinn is an American adult animated dark comedy superhero television series based on the DC Comics character of the same name. It follows the misadventures of Harley Quinn and her best friend (and eventual lover), Poison Ivy, after leaving her boyfriend, the Joker. Noonan's, is a spin-off featuring Kite Man and his current girlfriend Golden Glider."
+  How I Met Your...:
+    template: {name: collection, tvdb: how-i-met-your-mother}
+    summary: How I Met Your Mother/Father are a collection of sitcoms narated by an older version of the main character as they tell their children how they met their mother/father.
+  Justified:
+    template: {name: collection, tvdb: justified}
+    summary: "Justified is an American Western crime drama television series based on novels by Elmore Leonard. Justified: City Primeval, is a limited sequel series."
+  Long Way:
+    template: {name: collection, tvdb: long-way}
+  Marvel Cinematic Universe:
+    template: {name: collection, tvdb: marvel-cinematic-universe}
+    summary: "Marvel's mightiest heroes from across the galaxy gather in the Marvel Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over..."
+  Pretty Little Liars:
+    template: {name: collection, tvdb: pretty-little-liars}
+    summary: "Pretty Little Liars is an American teen drama mystery thriller television series, loosely based on the novel series of the same name. It went on to spawn several spin-offs, Ravenswood, Pretty Little Liars: The Perfectionists, and Pretty Little Liars: Original Sin." 
+  Stargate:
+    template: {name: collection, tvdb: stargate}
+  Star Trek:
+    template: {name: collection, tvdb: star-trek}
+    summary: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series. 
+  Star Wars:
+    template: {name: collection, tvdb: star-wars}
+    summary: "An epic space-opera series, which depicts the adventures of various characters 'a long time ago in a galaxy far, far away….'"
+  Supernatural:
+    template: {name: collection, tvdb: supernatural}
+    summary: "Supernatural is an American dark fantasy drama television series which follows the two Winchester brothers, Sam and Dean, as they hunt demons, ghosts, monsters, and other supernatural beings. A spin-off, The Winchesters, will explore how Sam amd Dean's parents met." 
+  Walker:
+    template: {name: collection, tvdb: walker}
+    summary: Walker is an American action crime drama television series, it is a reboot of the 1990’s western drama television series Walker, Texas Ranger.  
+  The Walking Dead:
+    template: {name: collection, tvdb: the-walking-dead, sort: Walking Dead }
+    summary: Fight the dead. Fear the living. The Walking Dead is a zombie apocalypse media franchise based on the comic book series of the same name, created by writer Robert Kirkman and artist Tony Moore.
+  The Witcher:
+    template: {name: collection, tvdb: the-witcher, sort: Witcher}
+  Yellowstone:
+    template: {name: collection, tvdb: yellowstone}
+    summary: "Yellowstone is an American neo-Western drama television series and follows the Dutton family, owners of the largest ranch in Montana, the Yellowstone Dutton Ranch, commonly called 'the Yellowstone'. Various spin-offs explore different generations of the Dutton family across differemt time periods."
