@@ -1,0 +1,63 @@
+######################################################
+#                  Movie Collections                 #
+######################################################
+
+templates:
+  collection:
+    optional:
+      - collection
+      - movie
+      - tvdb
+      - user
+      - trakt
+      - imdb
+      - sort 
+      - order
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    tvdb_list_details: https://thetvdb.com/lists/<<tvdb>>
+    trakt_list_details: https://trakt.tv/users/<<user>>/lists/<<trakt>>
+    imdb_list: https://www.imdb.com/list/<<imdb>>/
+    sort_title: <<sort>>
+    collection_order: <<order>>
+
+collections:
+  Charlie Brown:
+    template: {name: collection, imdb: ls054850259}
+    summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
+  Cloverfield:
+    template: {name: collection, tvdb: cloverfield}
+    #summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
+  The Cornetto Trilogy:
+    template: {name: collection, sort: "Cornetto Trilogy", imdb: ls068623110}
+    summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost.
+  DCEU:
+    template: {name: collection, tvdb: dc-extended-universe, radarr: true}
+    #summary:
+  DC Universe Animated Original Movies:
+    template: {name: collection, user: kulkoff, trakt: dc-animated-original-movies}
+    summary: The DC Universe Animated Original Movies are a series of American direct-to-video superhero animated films based on DC Comics characters and stories.
+  Final Fantasy:
+    template: {name: collection, imdb: ls022264056}
+    summary: A collection of films based off or closely associated with the Final Fantasy video games.
+  The Man with No Name:
+    template: {name: collection, sort: "Man with No Name", imdb: ls023916334}
+    summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more movies. Theses three movies are consistently listed among the best rated Western films in history.
+  Middle-Earth:
+    template: {name: collection, collection: "121938, 119", order: alpha }
+    summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
+  MonsterVerse:
+    template: {name: collection, tvdb: monsterverse}
+    #summary:
+  Monty Python:
+    template: {name: collection, imdb: ls072012494}
+    summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
+  #Pokémon:
+    #template: {name: collection, imdb: ls062687939}
+    #summary: Pokémon is a media franchise created by video game designer Satoshi Tajiri that centers on fictional creatures called Pokémon. As of 2020, there have been 23 animated films and one live action film. The first nineteen animated films are based on the anime television series of the same name, with the original film being remade into the 22nd. The 20th, 21st and 23rd animated films are set in an alternate continuity to the anime.
+  Unbreakable:
+    template: {name: collection, imdb: ls022101006}
+    summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
+  Wizarding World:
+    template: {name: collection, collection: "1241, 435259", order: alpha }
+    summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
