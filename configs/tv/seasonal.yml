@@ -1,0 +1,105 @@
+######################################################
+#                Seasonal Collections                #
+######################################################
+
+templates:
+  seasonal:
+    optional:
+      - trakt
+      - imdb
+      - exclude
+      - include
+      - episode
+      - show
+    smart_label:
+      sort_by: show.asc
+      all:
+        episode_label: <<smart_label>>
+        genre.not: <<exclude>>
+        genre: <<include>>
+        any:
+          episode_title: <<episode>>
+          show_title: <<show>>
+    #plex_search:
+      #all:
+    builder_level: episode
+    trakt_list: <<trakt>>
+    imdb_list: https://www.imdb.com/<<imdb>>
+    schedule: range(<<schedule>>)
+    summary: >-
+            A collection of <<season>> themed episodes and TV Shows.
+            
+            PLEASE NOTE, this is a timed collection and will be automatically removed at the end of the holiday.
+    visible_home: true
+    visible_shared: true
+    delete_not_scheduled: true
+    sort_title: +++<<collection_name>
+  
+collections: 
+  Christmas Episodes:
+    template: 
+      name: seasonal
+      schedule: 11/01-01/01
+      season: Christmas
+      trakt: 
+        - https://trakt.tv/users/uyn5hnpr2wdjwksh/lists/christmas-episodes
+        - https://trakt.tv/users/philrivers/lists/christmas-episodes 
+        - https://trakt.tv/users/b23ant/lists/christmas-episodes
+      #imdb: search/keyword/?keywords=christmas-episode
+      exclude:
+        - Thriller
+        - Horror
+        - Crime
+        - Reality    
+      episode: 
+        - Christmas
+        - Xmas
+        - Grinch
+        - Santa
+        - Claus
+        - Reindeer
+        - Mistletoe
+        - Jingle
+        - Merry
+        - Snowman
+        - Snow
+        - Festive
+        - Elves
+        - Jolly
+        - Reindeer
+        - Caroling
+        - Nativity
+        - Yuletide
+        - Tinsel
+        - Rudolph
+        - Sleigh
+        - Scrooge
+        - Snowball
+        - Sleigh bells
+        - North Pole
+      show:
+        - Christmas
+        - Xmas
+        - Grinch
+        - Santa
+        - Claus
+        - Reindeer
+        - Mistletoe
+        - Jingle
+        - Merry
+        - Snowman
+        - Snow
+        - Festive
+        - Elves
+        - Jolly
+        - Reindeer
+        - Caroling
+        - Nativity
+        - Yuletide
+        - Tinsel
+        - Rudolph
+        - Sleigh
+        - Scrooge
+        - Snowball
+        - Sleigh bells
+        - North Pole
