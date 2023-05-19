@@ -1,0 +1,15 @@
+######################################################
+#              Trakt Dynamic Collections             #
+######################################################
+
+templates:
+  trakt:
+    trakt_list_details: <<trakt_user_lists>>
+
+dynamic_collections:
+  #Create collections based on the Trakt lists associated with the authenticated user.
+  Trakt List Collections:
+    template: trakt
+    type: trakt_user_lists
+    data: me
+    exclude: Stand-Up
