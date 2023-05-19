@@ -1,0 +1,18 @@
+######################################################
+#                  Chart Collections                 #
+######################################################
+
+templates:
+  charts:
+    smart_label:
+      sort_by: audience_rating.desc
+      all:
+        label: <<smart_label>>
+      validate: true
+    sort_title: +<<collection_name>>
+
+collections:
+  IMDb Top 250:
+    template: {name: charts}
+    imdb_chart: top_movies
+    summary: The top 250 best movies of all time based on IMDb user ratings.
