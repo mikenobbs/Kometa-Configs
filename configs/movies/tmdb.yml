@@ -1,0 +1,218 @@
+######################################################
+#              TMDB Dynamic Collections              #
+######################################################
+
+templates:
+  tmdb:
+    optional:
+      - movie
+      - summary
+      - sort
+      - order
+      - minimum
+      - mode
+    tmdb_collection_details: <<tmdb_collection>>
+    tmdb_movie: <<movie>>
+    summary: <<summary>>
+    sort_title: <<sort>>
+    collection_order: <<order>>
+    collection_mode: <<mode>>
+    minimum_items: <<minimum>>
+
+dynamic_collections:
+  TMDb Collections:
+    template: tmdb
+    type: tmdb_collection
+    addons: 
+      8091:        # Alien
+        - 135416   # Prometheus
+      86066:       # Despicable Me
+        - 544669   # Minions
+      86860:       # Scooby-Doo
+        - 633815   # The Mystery Begins
+      115575:      # Star Trek: Alternate Reality                                          
+        - 151      # Star Trek: The Original Series                                               
+        - 115570   # Star Trek: The Next Generation
+      8650:        # Transformers
+        - 939352   # Rise of the Beasts
+      748:         # X-Men
+        - 453993   # The Wolverine
+        - 448150   # Deadpool
+    remove_prefix: The
+    remove_suffix: Collection
+    title_override:
+      750822: The Addams Family
+      125574: The Amazing Spider-Man
+      948485: The Batman
+      743824: The Christmas Chronicles 
+      86066: Despicable Me & Minions
+      263: The Dark Knight
+      9485: Fast & Furious
+      230: The Godfather
+      87251: The Good Witch
+      121938: The Hobbit
+      131635: The Hunger Games
+      119: The Lord of the Rings
+      110021: The Magnificent Seven
+      2344: The Matrix
+      1733: The Mummy
+      735384: Poirot
+      86860: Scooby-Doo!
+      394204: The Snowman
+      275402: SpongeBob SquarePants
+      115575: Star Trek
+      627517: The Wizard of Oz
+      683698: Zombies
+    template_variables:
+      movie:
+        466463:        # Descendants
+          - 805411     # The Royal Wedding
+        9485:          # Fast & Furious
+          - 384018     # Hobbs & Shaw
+        1241:          # Harry Potter
+          - 899082     # 20th Anniversary
+        8354:          # Ice Age
+          - 387893     # Egg-Scapade
+          - 79218      # Mammoth Christams
+        70068:         # IP Man
+          - 658009     # Kung Fu Master
+          - 643413     # Four Kings
+          - 450001     # Master Z
+          - 751391     # Crisis Time
+          - 44249      # Legend is Born
+          - 182127     # Final Fight
+          - 44865      # The Grandmaster
+        328:           # Jurassic Park
+          - 630322     # Battle at Big Rock
+        77816:         # Kung Fu Panda
+          - 50393      # King Fu Panda Holiday
+        14740:         # Madagascar
+          - 25472      # Merry Madagascar
+          - 161143     # Madly Madagascar
+          - 10258      # Penguins Christmas Caper
+          - 270946     # Penguins of Madagascar
+        110021:        # Magnificent Seven
+          - 333484     # Magnificent Seven (2016)
+        2344:          # The Matrix
+          - 55931      # Animatrix
+        1733:          # The Mummy
+          - 9334       # Scorpion King
+        304:           # Ocean's
+          - 402900     # Ocean's Eight
+        708816:        # Power Rangers
+          - 305470     # Power Rangers (2017)
+        2150:          # Shrek
+          - 13394      # Shrek the Halls
+          - 25523      # Ghost of Lord Farquaad
+          - 48466      # Scared Shrekless
+          - 51256      # Shrektacular
+        627517:        # Wizard of Oz
+          - 13155      # Return to Oz
+          - 68728      # Oz the Great and Powerful
+        17255:         # Resident Evil
+          - 460458     # Welcome to Racoon City
+        10:            # Star Wars
+          - 330459     # Rogue One 
+          - 348350     # Solo
+        10194:         # Toy Story
+          - 82424      # Small Fry
+          - 130925     # Partysaurus Rex
+          - 77887      # Hawaiian Vacation
+          - 213121     # Terror
+          - 256835     # Time Forgot
+          - 594530     # Lamp Life
+          - 718789     # Lightyear
+        8650:          # Transformers
+          - 424783     # Bumblebee
+      sort:
+        750822: Addams Family
+        125574: Amazing Spider-Man
+        948485: Batman
+        334996: Batman, Son of
+        743824: Christmas Chronicles
+        201873: Christmas Story
+        263: Dark Knight
+        230: Godfather
+        87251: Good Witch
+        121938: Hobbit
+        131635: Hunger Games
+        119: Lord of the Rings
+        110021: Magnificent Seven
+        2344: Matrix
+        1733: Mummy
+        394204: Snowman
+        627517: Wizard of Oz
+      order:
+        10: alpha       # Star Wars
+      summary:
+        115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
+      mode:
+        893731: hide    # PAW Patrol
+        1079241: hide   # Clifford the Big Red Dog
+      minimum:
+        893731: 1       # PAW Patrol
+        1079241: 1      # Clifford the Big Red Dog
+    exclude:
+      - 100693    # 101 Dalmatians (Animated)                                         
+      - 124916    # 101 Dalmatians (Live-Action) 
+      - 86027     # Aladdin
+      - 748401    # Aladdin (Live Action)
+      - 312735    # Annie
+      - 422834    # Ant-Man
+      - 573693    # Aquaman
+      - 86311     # The Avengers
+      - 87250     # Bambi
+      - 785583    # Batman the Long Halloween
+      - 153010    # Beauty and the Beast                                                
+      - 529892    # Black Panther
+      - 131295    # Captain America
+      - 623911    # Captain Marvel
+      - 87118     # Cars
+      - 8819      # Casper   
+      - 1028525   # Charlie Brown
+      - 55419     # Cinderella                                                              
+      - 837007    # Cruella   
+      - 618529    # Doctor Strange
+      - 531799    # Enchanted              
+      - 178117    # The Emperor's New Groove   
+      - 137697    # Finding Nemo                                            
+      - 100970    # The Fox and the Hound
+      - 386382    # Frozen
+      - 535313    # Godzilla
+      - 284433    # Guardians of the Galaxy
+      - 978459    # Hercules
+      - 97456     # The Hunchback of Notre Dame  
+      - 468222    # The Incredibles
+      - 131292    # Iron Man                                                     
+      - 285564    # Jarhead                                                       
+      - 307637    # Jingle All the Way                                                     
+      - 97459     # The Jungle Book   
+      - 97460     # Lady and the Tramp
+      - 97461     # Lilo & Stitch                                                             
+      - 94032     # The Lion King                                                                       
+      - 762512    # The Lion King (Reboot)                                                     
+      - 33085     # The Little Mermaid 
+      - 531331    # Maleficent            
+      - 209131    # Man of Steel
+      - 527439    # Mary Poppins
+      - 137696    # Monsters, Inc.
+      - 87236     # Mulan
+      - 55422     # Peter Pan
+      - 136214    # Pocahontas                                                                
+      - 768140    # Pokémon: Detective Pikachu  
+      - 57971     # The Rescuers
+      - 53159     # The Santa Clause                                                                                                       
+      - 1006443   # Scooby-Doo
+      - 869205    # Scooby-Doo WWE
+      - 762458    # Scooby-Doo Zombie Island   
+      - 912503    # Shang-Chi                                                                 
+      - 724848    # Shazam!
+      - 531241    # Spider-Man (Avengers)                                                                                                          
+      - 531242    # Suicide Squad                                                                 
+      - 729425    # Team Thor   
+      - 131296    # Thor       
+      - 123694    # Timon and Pumbaa
+      - 10194     # Toy Story
+      - 109608    # Van Helsing
+      - 468552    # Wonder Woman
+      - 404825    # Wreck-It Ralph
