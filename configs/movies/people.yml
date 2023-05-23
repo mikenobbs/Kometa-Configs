@@ -27,6 +27,8 @@ collections:
     sort_title: ++Coen Brothers
   Leonardo DiCaprio:
     template: {name: actor, person: 6193}
+  Martin Scorsese:
+    template: {name: director, person: 1032}
   Quentin Tarantino:
     template: {name: director, person: 138}
   Wes Anderson:
