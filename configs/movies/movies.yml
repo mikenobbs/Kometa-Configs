@@ -11,6 +11,7 @@ templates:
       - user
       - trakt
       - imdb
+      - radarr
       - sort 
       - order
     tmdb_collection_details: <<collection>>
@@ -18,6 +19,7 @@ templates:
     tvdb_list_details: https://thetvdb.com/lists/<<tvdb>>
     trakt_list_details: https://trakt.tv/users/<<user>>/lists/<<trakt>>
     imdb_list: https://www.imdb.com/list/<<imdb>>/
+    radarr_add_missing: <<radarr>>
     sort_title: <<sort>>
     collection_order: <<order>>
 
@@ -43,8 +45,11 @@ collections:
   The Man with No Name:
     template: {name: collection, sort: "Man with No Name", imdb: ls023916334}
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more movies. Theses three movies are consistently listed among the best rated Western films in history.
+  Marvel Cinematic Universe:
+    template: {name: collection, tvdb: marvel-cinematic-universe, radarr: true}
+    summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
   Middle-Earth:
-    template: {name: collection, collection: "121938, 119", order: alpha }
+    template: {name: collection, collection: "121938, 119", order: alpha}
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
   MonsterVerse:
     template: {name: collection, tvdb: monsterverse}
@@ -59,5 +64,5 @@ collections:
     template: {name: collection, imdb: ls022101006}
     summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
   Wizarding World:
-    template: {name: collection, collection: "1241, 435259", order: alpha }
+    template: {name: collection, collection: "1241, 435259", order: alpha}
     summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
