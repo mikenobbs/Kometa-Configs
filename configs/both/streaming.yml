@@ -30,7 +30,4 @@ dynamic_collections:
       netflix: Netflix
       amazon: Prime Video
     title_format: <<key_name>>
-    region:
-      amazon: uk
-      disney: uk
-      netflix: uk
+    region: uk
