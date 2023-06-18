@@ -1,0 +1,36 @@
+######################################################
+#               Streaming Collections                #
+######################################################
+
+templates:
+  streaming:
+    conditionals:
+      watch_region:
+        default: ""
+        conditions:
+          - region: uk
+            key: [amazon, disney, netflix]
+            value: "-uk"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/<<key>>-<<library_type>>s<<watch_region>>
+    summary: Collection of <<library_type>> streaming on <<collection_name>>.
+    sort_title: ++<<collection_name>>
+
+dynamic_collections:
+  Streaming:
+    template: streaming
+    type: custom
+    data:
+      appletv: Apple TV+
+      disney: Disney+
+      hbomax: HBO Max
+      netflix: Netflix
+      amazon: Prime Video
+    title_format: <<key_name>>
+    region:
+      amazon: uk
+      disney: uk
+      netflix: uk
