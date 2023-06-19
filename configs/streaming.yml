@@ -26,7 +26,7 @@ dynamic_collections:
     data:
       appletv: Apple TV+
       disney: Disney+
-      hbomax: Max
+      max: Max
       netflix: Netflix
       amazon: Prime Video
     title_format: <<key_name>>
