@@ -16,7 +16,7 @@ templates:
       all:
         label: <<smart_label>>
     mdblist_list: https://mdblist.com/lists/plexmetamanager/<<key>>-<<library_type>>s<<watch_region>>
-    summary: Collection of <<library_type>> streaming on <<collection_name>>.
+    summary: Collection of <<library_type>>s currently streaming on <<collection_name>>.
     sort_title: ++<<collection_name>>
 
 dynamic_collections:
@@ -30,4 +30,5 @@ dynamic_collections:
       netflix: Netflix
       amazon: Prime Video
     title_format: <<key_name>>
-    region: uk
+    watch_region:
+      region: uk
