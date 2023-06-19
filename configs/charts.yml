@@ -1,0 +1,93 @@
+######################################################
+#                  Chart Collections                 #
+######################################################
+
+templates:
+  imdb:
+    imdb_chart: <<chart>>_<<library_type>>s
+    sort_title: ++++<<collection_name>>
+  tmdb:
+    default:
+      limit: 100
+      limit_<<key>>: <<limit>>
+      chart: <<key>>
+    tmdb_<<chart>>: <<limit_<<key>>>>
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
+    sort_title: +++<<collection_name>>
+  trakt:
+    default:
+      limit: 100
+      limit_<<key>>: <<limit>>
+    trakt_chart:
+      chart: <<key>>
+      limit: <<limit_<<key>>>>
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
+    sort_title: ++<<collection_name>>
+
+collections:
+  IMDb Popular:
+    template: 
+      - name: imdb
+        chart: popular
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
+    summary: Popular <<library_type>>s as determined by IMDb users.
+  IMDb Top 250:
+    template: 
+      - name: imdb
+        chart: top
+    smart_label:
+      sort_by: audience_rating.desc
+      all:
+        label: <<smart_label>>
+    summary: The top 250 best <<library_type>>s of all time based on IMDb user ratings.
+  TMDb Popular:
+    variables:
+      key: popular
+    template:
+      - name: tmdb
+    summary: Popular <<library_type>>s as determined by TMDb users.
+  TMDb Top Rated:
+    variables:
+      key: top
+    template:
+      - name: tmdb
+        chart: top_rated
+    smart_label:
+      sort_by: audience_rating.desc
+      all:
+        label: <<smart_label>>
+    summary: Top rated <<library_type>>s based on TMDb user ratings.
+  TMDb Trending:
+    variables:
+      key: trending
+    template:
+      - name: tmdb
+        chart: trending_weekly
+    summary: <<library_type>>s trending this week on TMDb.
+  Trakt Popular:
+    variables:
+      key: popular
+    template:
+      - name: trakt
+    summary: Popular <<library_type>>s as determined by Trakt users.
+  Trakt Recommended:
+    variables:
+      key: recommended
+    template:
+      - name: trakt
+    summary: <<library_type>>s recommended this week on Trakt.
+  Trakt Trending:
+    variables:
+      key: trending
+    template:
+      - name: trakt
+    summary: <<library_type>>s trending this week on Trakt.
