@@ -21,6 +21,8 @@ templates:
 
 dynamic_collections:
   Streaming:
+    variables:
+      region: uk
     template: streaming
     type: custom
     data:
@@ -30,5 +32,3 @@ dynamic_collections:
       netflix: Netflix
       amazon: Prime Video
     title_format: <<key_name>>
-    watch_region:
-      region: uk
