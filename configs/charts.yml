@@ -17,7 +17,7 @@ templates:
       limit_<<key>>: <<limit>>
       chart: <<key>>
     tmdb_<<chart>>: <<limit_<<key>>>>
-    sort_title: +++<<collection_name>>
+    sort_title: ++++<<collection_name>>
   trakt:
     default:
       limit: 100
@@ -25,7 +25,7 @@ templates:
     trakt_chart:
       chart: <<key>>
       limit: <<limit_<<key>>>>
-    sort_title: ++<<collection_name>>
+    sort_title: +++<<collection_name>>
 
 collections:
   IMDb Popular:
