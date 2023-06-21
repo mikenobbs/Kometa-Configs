@@ -4,7 +4,6 @@
 
 templates:
   sort:
-    collection_order: custom
     smart_label:
       all:
         label: <<smart_label>>
