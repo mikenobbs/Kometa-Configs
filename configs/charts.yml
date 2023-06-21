@@ -4,8 +4,8 @@
 
 templates:
   sort:
+    collection_order: custom
     smart_label:
-      sort_by: audience_rating.desc
       all:
         label: <<smart_label>>
   imdb:
