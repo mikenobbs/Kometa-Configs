@@ -6,7 +6,6 @@ templates:
   streaming:
     conditionals:
       watch_region:
-        default: ""
         conditions:
           - region: uk
             key: [amazon, disney, netflix]
@@ -22,7 +21,6 @@ templates:
 dynamic_collections:
   Streaming:
     template: streaming
-      region: uk
     type: custom
     data:
       appletv: Apple TV+
