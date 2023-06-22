@@ -24,12 +24,12 @@ collections:
     summary: The top 250 best <<library_type>>s of all time based on IMDb user ratings.
  
   TMDb Trending:
-    template: {name: sort}
+    template: sort
     tmdb_trending_weekly: 100
     summary: Collection of <<library_type>>s trending this week on TMDb, updated every Monday.
  
   Trakt Trending:
-    template: {name: sort}
+    template: sort
     trakt_chart:
       chart: trending
       limit: 100
