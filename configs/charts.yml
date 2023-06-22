@@ -5,32 +5,31 @@
 templates:
   imdb:
     imdb_chart: <<chart>>_<<library_type>>s
-  sort:
-    smart_label:
-      sort_by: release.desc
-      all:
-        label: <<smart_label>>
-    sort_title: ++++<<collection_name>>
-    schedule: weekly(monday)
-
-collections:
-  IMDb Top 250:
-    template: {name: imdb, chart: top}
     smart_label:
       sort_by: audience_rating.desc
       all:
         label: <<smart_label>>
     sort_title: ++++<<collection_name>>
     summary: The top 250 best <<library_type>>s of all time based on IMDb user ratings.
+  sort:
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+    sort_title: ++++<<collection_name>>
+    summary: Collection of <<library_type>>s trending this week on <<website>>, updated every Monday.
+    schedule: weekly(monday)
+
+collections:
+  IMDb Top 250:
+    template: {name: imdb, chart: top}
  
   TMDb Trending:
-    template: {name: sort}
+    template: {name: charts, website: TMDb}
     tmdb_trending_weekly: 100
-    summary: Collection of <<library_type>>s trending this week on TMDb, updated every Monday.
  
   Trakt Trending:
-    template: {name: sort}
+    template: {name: charts, website: Trakt}
     trakt_chart:
       chart: trending
       limit: 100
-    summary: Collection of <<library_type>>s trending this week on Trakt, updated every Monday.
