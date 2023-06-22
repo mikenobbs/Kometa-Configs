@@ -18,6 +18,8 @@ collections:
     template: {name: hidden, show: 33907}
   Family Guy:
     template: {name: hidden, show: 1434}
+  The Full Monty:
+    template: {name: hidden, show: 196214, sort: Full Monty}
   Futurama:
     template: {name: hidden, show: 615}
   The Good Witch:
