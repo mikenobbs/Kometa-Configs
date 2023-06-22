@@ -6,7 +6,6 @@ templates:
   hidden:
     optional:
       - sort
-      - movie
     tmdb_movie: <<movie>>
     minimum_items: 1
     collection_mode: hide
