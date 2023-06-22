@@ -7,12 +7,7 @@ templates:
     optional:
       - sort
       - movie
-      - tmdb
-      - user
-      - trakt
     tmdb_movie: <<movie>>
-    tmdb_collection_details: <<tmdb>>
-    trakt_list: https://trakt.tv/users/<<user>>/lists/<<trakt>>
     minimum_items: 1
     collection_mode: hide
     sort_title: <<sort>>
@@ -24,6 +19,8 @@ collections:
     template: {name: hidden, movie: 10206}
   Friends:
     template: {name: hidden, movie: 691179}
+  The Full Monty:
+    template: {name: hidden, movie: 9427, sort: Full Monty}
   The Simpsons:
     template: {name: hidden, movie: 35, sort: Simpsons}
   South Park:
