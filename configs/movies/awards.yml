@@ -1,0 +1,13 @@
+######################################################
+#                  Awards Collections                #
+######################################################
+
+collections:
+  Oscars:
+    trakt_list: https://trakt.tv/users/pandali/lists/oscar-nomination-1975-2023
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+    sort_title: +++<<collection_name>>
+    summary: Every movie to receive an Oscar nomination from 1931-Present.
