@@ -5,10 +5,10 @@
 templates:
   sort:
     smart_label:
-      sort_by: release.asc
+      sort_by: release.desc
       all:
         label: <<smart_label>>
-    sort_title: +++<<collection_name>>
+    sort_title: ++++<<collection_name>>
     schedule: weekly(monday)
 
 collections:
@@ -18,7 +18,7 @@ collections:
       sort_by: audience_rating.desc
       all:
         label: <<smart_label>>
-    sort_title: +++<<collection_name>>
+    sort_title: ++++<<collection_name>>
     summary: The top 250 best <<library_type>>s of all time based on IMDb user ratings.
  
   TMDb Trending:
