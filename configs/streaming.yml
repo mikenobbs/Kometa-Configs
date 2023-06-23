@@ -24,7 +24,7 @@ dynamic_collections:
     template: streaming
     type: custom
     template_variables:
-      region: uk
+      - region: uk
     data:
       appletv: Apple TV+
       disney: Disney+
