@@ -21,7 +21,7 @@ templates:
 
 dynamic_collections:
   Streaming:
-    variables: {region: uk}
+    template variables: {region: uk}
     template: streaming
     type: custom
     data:
