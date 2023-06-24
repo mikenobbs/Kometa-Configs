@@ -8,8 +8,7 @@ templates:
       watch_region:
         default: ""
         conditions:
-          - region: uk
-            key: [amazon, disney, netflix]
+          - key: [amazon, disney, netflix]
             value: "-uk"
     smart_label:
       sort_by: title.asc
@@ -22,7 +21,6 @@ templates:
 dynamic_collections:
   Streaming:
     template: streaming
-      template_variables: {region: uk}
     type: custom
     data:
       appletv: Apple TV+
