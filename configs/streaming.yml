@@ -22,7 +22,7 @@ templates:
 dynamic_collections:
   Streaming:
     template: streaming
-      template variables: {region: uk}
+      template_variables: {region: uk}
     type: custom
     data:
       appletv: Apple TV+
