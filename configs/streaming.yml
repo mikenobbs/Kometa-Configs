@@ -11,7 +11,7 @@ templates:
           - key: [amazon, disney, netflix]
             value: "-uk"
     smart_label:
-      sort_by: title.asc
+      sort_by: release.desc
       all:
         label: <<smart_label>>
     mdblist_list: https://mdblist.com/lists/plexmetamanager/<<key>>-<<library_type>>s<<watch_region>>
