@@ -17,10 +17,10 @@ templates:
     collection_order: custom
 
 playlists:
-  The Simpsons Top 100 Episodes:
+  The Simpsons Top 100 Episode:
     template: {name: top, cache: 1, library: TV Shows, imdb: tt0096697}
     summary: Top 100 episodes of The Simpsons based on IMDb user rating.
-  South Park Top 100 Episodes:
+  South Park Top 100 Episode:
     template: {name: top, cache: 1, library: TV Shows, imdb: tt0121955}
     summary: Top 100 episodes of South Park based on IMDb user rating.
   "Star Wars: The Clone Wars - Chronological Order":
