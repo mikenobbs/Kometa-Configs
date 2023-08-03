@@ -19,7 +19,7 @@ templates:
     sort_title: ++<<collection_name>>
 
 dynamic_collections:
-  Streamings:
+  Streaming:
     template: streaming
     type: custom
     data:
