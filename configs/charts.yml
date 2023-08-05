@@ -18,8 +18,8 @@ templates:
     collection_filtering: user
     smart_filter:
       all:
-        sort_by: release.desc
         unplayed<<episodes>>: true
+      sort_by: release.desc
     summary: "Collection of <<library_type>>s that haven't been watched<<summary>>."
     sort_title: +++++<<collection_name>>
   imdb:
