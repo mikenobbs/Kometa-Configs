@@ -10,17 +10,12 @@ templates:
         conditions:
           - library_type: show
             value: "_episodes"
-      summary:
-        default: ""
-        conditions:
-          - library_type: show
-            value: " or are unfinished"
     collection_filtering: user
     smart_filter:
       all:
         unplayed<<episodes>>: true
       sort_by: release.desc
-    summary: "Collection of <<library_type>>s that haven't been watched<<summary>>."
+    summary: "Collection of <<library_type>>s that haven't been watched."
     sort_title: +++++<<collection_name>>
   imdb:
     imdb_chart: <<chart>>_<<library_type>>s
