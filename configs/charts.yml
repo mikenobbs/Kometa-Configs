@@ -8,12 +8,12 @@ templates:
       episodes:
         default: ""
         conditions:
-          - library: show
+          - library_type: show
             value: "_episodes"
       summary:
         default: ""
         conditions:
-          - library: show
+          - library_type: show
             value: " or are unfinished"
     collection_filtering: user
     smart_filter:
@@ -41,7 +41,7 @@ templates:
 
 collections:
   Unplayed:
-    template: {name: unplayed, library: <<library_type>>}
+    template: {name: unplayed, library_type: <<library_type>>}
   IMDb Top 250:
     template: {name: imdb, chart: top}
   TMDb Trending:
