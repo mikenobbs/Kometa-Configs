@@ -3,6 +3,20 @@
 ######################################################
 
 templates:
+  unplayed:
+    conditionals:
+      episodes:
+        default: ""
+        conditions:
+          - key: show
+            value: "_episodes"
+    collection_filtering: user
+    smart_filter:
+      all:
+        sort_by: release.desc
+        unplayed<<episodes>>: true
+    summary: "Collection of <<library_type>>s that haven't been watched."
+    sort_title: +++++<<collection_name>>
   imdb:
     imdb_chart: <<chart>>_<<library_type>>s
     smart_label:
@@ -21,13 +35,13 @@ templates:
     schedule: weekly(monday)
 
 collections:
+  Unplayed:
+    template: {name: unplayed, key: <<library_type>>}
   IMDb Top 250:
     template: {name: imdb, chart: top}
- 
   TMDb Trending:
     template: {name: charts, website: TMDb}
     tmdb_trending_weekly: 100
- 
   Trakt Trending:
     template: {name: charts, website: Trakt}
     trakt_chart:
