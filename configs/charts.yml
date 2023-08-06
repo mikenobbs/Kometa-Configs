@@ -3,19 +3,24 @@
 ######################################################
 
 templates:
-  unplayed:
+  unwatched:
     conditionals:
       episodes:
         default: ""
         conditions:
           - library_type: show
             value: "_episodes"
+      description:
+        default: ""
+        conditions:
+          - library_type: show
+            value: " or have unplayed episodes"
     collection_filtering: user
     smart_filter:
       all:
         unplayed<<episodes>>: true
       sort_by: release.desc
-    summary: "Collection of <<library_type>>s that haven't been watched."
+    summary: "Collection of <<library_type>>s that haven't been watched<<description>>."
     sort_title: +++++<<collection_name>>
   imdb:
     imdb_chart: <<chart>>_<<library_type>>s
@@ -35,8 +40,8 @@ templates:
     schedule: weekly(monday)
 
 collections:
-  Unplayed:
-    template: {name: unplayed, library_type: <<library_type>>}
+  Unwatched:
+    template: {name: unwatched, library_type: <<library_type>>}
   IMDb Top 250:
     template: {name: imdb, chart: top}
   TMDb Trending:
