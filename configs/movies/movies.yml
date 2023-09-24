@@ -25,7 +25,7 @@ templates:
 
 collections:
   Charlie Brown:
-    template: {name: collection, imdb: ls054850259}
+    template: {name: collection, user: krissykk, trakt: animation-charlie-brown-peanuts-collection}
     summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
   Cloverfield:
     template: {name: collection, tvdb: cloverfield}
@@ -46,7 +46,7 @@ collections:
     template: {name: collection, sort: "Man with No Name", imdb: ls023916334}
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more movies. Theses three movies are consistently listed among the best rated Western films in history.
   Marvel Cinematic Universe:
-    template: {name: collection, tvdb: marvel-cinematic-universe, collection: 290933, radarr: true}
+    template: {name: collection, tvdb: marvel-cinematic-universe, collection: 729425, radarr: true}
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
   Middle-Earth:
     template: {name: collection, collection: "121938, 119", order: alpha}
