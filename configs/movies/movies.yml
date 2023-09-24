@@ -36,8 +36,8 @@ collections:
   DCEU:
     template: {name: collection, tvdb: dc-extended-universe, radarr: true}
     #summary:
-  DC Universe Animated Original Movies:
-    template: {name: collection, user: kulkoff, trakt: dc-animated-original-movies}
+  DCAU:
+    template: {name: collection, user: kulkoff, trakt: dc-animated-original-movies, collection: "421904, 379475, 593251"}
     summary: The DC Universe Animated Original Movies are a series of American direct-to-video superhero animated films based on DC Comics characters and stories.
   Final Fantasy:
     template: {name: collection, imdb: ls022264056}
@@ -46,7 +46,7 @@ collections:
     template: {name: collection, sort: "Man with No Name", imdb: ls023916334}
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more movies. Theses three movies are consistently listed among the best rated Western films in history.
   Marvel Cinematic Universe:
-    template: {name: collection, tvdb: marvel-cinematic-universe, radarr: true}
+    template: {name: collection, tvdb: marvel-cinematic-universe, collection: 290933, radarr: true}
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
   Middle-Earth:
     template: {name: collection, collection: "121938, 119", order: alpha}
