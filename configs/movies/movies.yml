@@ -37,7 +37,7 @@ collections:
     template: {name: collection, tvdb: dc-extended-universe, radarr: true}
     #summary:
   DCAU:
-    template: {name: collection, user: kulkoff, trakt: dc-animated-original-movies, collection: "421904, 379475, 593251"}
+    template: {name: collection, user: kulkoff, trakt: dc-animated-original-movies, collection: "421904, 379475, 593251", movie: 618353}
     summary: The DC Universe Animated Original Movies are a series of American direct-to-video superhero animated films based on DC Comics characters and stories.
   Final Fantasy:
     template: {name: collection, imdb: ls022264056}
