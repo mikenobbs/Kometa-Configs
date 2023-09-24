@@ -165,7 +165,8 @@ dynamic_collections:
       - 573693    # Aquaman
       - 86311     # The Avengers
       - 87250     # Bambi
-      - 785583    # Batman the Long Halloween
+      - 379475    # Batman Beyond
+      - 421904    # Batman DCAU
       - 153010    # Beauty and the Beast                                                
       - 529892    # Black Panther
       - 131295    # Captain America
@@ -210,8 +211,10 @@ dynamic_collections:
       - 762458    # Scooby-Doo Zombie Island   
       - 912503    # Shang-Chi                                                                 
       - 724848    # Shazam!
+      - 334996    # Son of Batman
       - 531241    # Spider-Man (Avengers)                                                                                                          
-      - 531242    # Suicide Squad                                                                 
+      - 531242    # Suicide Squad   
+      - 290933    # Superman/Batman
       - 729425    # Team Thor   
       - 131296    # Thor       
       - 123694    # Timon and Pumbaa
