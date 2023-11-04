@@ -58,6 +58,7 @@ dynamic_collections:
       110021: The Magnificent Seven
       2344: The Matrix
       1733: The Mummy
+      893731: PAW Patrol
       735384: Poirot
       86860: Scooby-Doo!
       394204: The Snowman
@@ -154,10 +155,8 @@ dynamic_collections:
       summary:
         115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
       mode:
-        893731: hide    # PAW Patrol
         1079241: hide   # Clifford the Big Red Dog
       minimum:
-        893731: 1       # PAW Patrol
         1079241: 1      # Clifford the Big Red Dog
     exclude:
       - 100693    # 101 Dalmatians (Animated)                                         
