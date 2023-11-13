@@ -28,6 +28,12 @@ dynamic_collections:
         - 135416   # Prometheus
       86066:       # Despicable Me
         - 544669   # Minions
+      34055:       # Pokémon
+        - 661025   # Pokémon Advanced
+        - 661026   # Pokémon Diamond and Pearl
+        - 661028   # Pokémon Best Wishes (Black and White)
+        - 661029   # Pokémon XY
+        - 661031   # Pokémon Alternate Continuity
       86860:       # Scooby-Doo
         - 633815   # The Mystery Begins
       115575:      # Star Trek: Alternate Reality                                          
@@ -102,6 +108,8 @@ dynamic_collections:
           - 9334       # Scorpion King
         304:           # Ocean's
           - 402900     # Ocean's Eight
+        34055:         # Pokémon
+          - 36897      # Mewtwo Returns
         708816:        # Power Rangers
           - 305470     # Power Rangers (2017)
           - 1068141    # Once & Always
