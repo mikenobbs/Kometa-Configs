@@ -16,13 +16,14 @@ templates:
     sort_title: <<sort>>
 
 collections:
+  Adventure Time:
+    template: {name: collection, show: "15260, 94810, 131378"}
+    summary: Adventure Time is an American animated fantasy franchise created by Pendleton Ward, set in the post-apocalyptic Land of Ooo.
   American Story:
     template: {name: collection, tvdb: 8411}
     summary: American Story is an American anthology media franchise consisting of several television series. Each series follows a different genre of fiction, with each individual season conceived as a self-contained miniseries, following a different set of characters and settings, and a story line with its own "'beginning, middle, and end.'" Many actors appear in more than one season and series, often playing a new character.
   "Avatar: The Last Airbender":
-    template: {name: collection, tvdb: 8116}
-  #Back in Time for...:
-    #template: {name: collection, trakt: mikenobbs/lists/back-in-time-for} 
+    template: {name: collection, tvdb: 8116} 
   Band of Brothers:
     template: {name: collection, tvdb: band-of-brothers}
   The Big Bang Theory:
