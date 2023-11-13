@@ -128,16 +128,10 @@ dynamic_collections:
         10:            # Star Wars
           - 330459     # Rogue One 
           - 348350     # Solo
-        10194:         # Toy Story
-          - 82424      # Small Fry
-          - 130925     # Partysaurus Rex
-          - 77887      # Hawaiian Vacation
-          - 213121     # Terror
-          - 256835     # Time Forgot
-          - 594530     # Lamp Life
-          - 718789     # Lightyear
         8650:          # Transformers
           - 424783     # Bumblebee
+        748:           # X-Men
+          - 340102     # New Mutants
       sort:
         750822: Addams Family
         125574: Amazing Spider-Man
