@@ -11,7 +11,7 @@ templates:
       sort_by: title.asc
       all:
         label: <<smart_label>>
-    trakt_list: https://trakt.tv/users/<<trakt>>
+    trakt_list: <<trakt>>
     imdb_list: https://www.imdb.com/<<imdb>>
     schedule: range(<<schedule>>)
     summary: >-
@@ -22,7 +22,7 @@ templates:
     visible_home: true
     visible_shared: true
     delete_not_scheduled: true
-    sort_title: +++<<collection_name>>
+    sort_title: ++++++<<collection_name>>
 
 collections:
   Christmas Movies:
@@ -30,5 +30,6 @@ collections:
       name: seasonal
       season: Christmas
       schedule: 11/01-01/01
-      trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie
-      #imdb: search/keyword/?keywords=christmas
+      trakt: 
+        - https://trakt.tv/users/plexmetamanager/lists/christmas-extravaganza-non-tv-movie
+        - https://trakt.tv/users/ubjeckle/lists/christmas-movies?sort=rank,asc
