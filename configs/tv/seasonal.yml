@@ -25,7 +25,7 @@ templates:
     sort_title: ++++++<<collection_name>
   
 collections: 
-  Christmas Episodes:
+  Christmas:
     template: 
       name: seasonal
       schedule: 11/01-01/01
