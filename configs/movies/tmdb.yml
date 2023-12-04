@@ -50,6 +50,7 @@ dynamic_collections:
       750822: The Addams Family
       125574: The Amazing Spider-Man
       948485: The Batman
+      722971: Benoit Blanc Mysteries
       743824: The Christmas Chronicles 
       420: The Chronicles of Narnia
       86066: Despicable Me & Minions
@@ -84,6 +85,7 @@ dynamic_collections:
           - 134375     # Holiday Heist
           - 654974     # Home Sweet Home Alone
         8354:          # Ice Age
+          - 46247      # No Time for Nuts
           - 387893     # Egg-Scapade
           - 79218      # Mammoth Christams
         70068:         # IP Man
