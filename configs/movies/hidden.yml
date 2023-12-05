@@ -22,5 +22,7 @@ collections:
     template: {name: hidden, movie: 9427, sort: Full Monty}
   The Simpsons:
     template: {name: hidden, movie: 35, sort: Simpsons}
+  Scott Pilgrim:
+    template: {name: hidden, movie: 22538}
   South Park:
     template: {name: hidden, movie: 9473}
