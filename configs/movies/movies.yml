@@ -17,15 +17,18 @@ templates:
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
     tvdb_list_details: https://thetvdb.com/lists/<<tvdb>>
-    trakt_list_details: https://trakt.tv/users/<<user>>/lists/<<trakt>>
+    trakt_list_details: https://trakt.tv/users/<<trakt>>
     imdb_list: https://www.imdb.com/list/<<imdb>>/
     radarr_add_missing: <<radarr>>
     sort_title: <<sort>>
     collection_order: <<order>>
 
 collections:
+  The Bad Guys:
+    template: {name: collection, sort: Bad Guys, movie: "629542, 981424, 1046032"}
+    summary: "The Bad Guys is an animated series loosely based on the children's book series of the same name by Aaron Blabey."
   Charlie Brown:
-    template: {name: collection, user: krissykk, trakt: animation-charlie-brown-peanuts-collection}
+    template: {name: collection, trakt: krissykk/lists/animation-charlie-brown-peanuts-collection}
     summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
   Cloverfield:
     template: {name: collection, tvdb: cloverfield}
@@ -37,7 +40,7 @@ collections:
     template: {name: collection, tvdb: dc-extended-universe, radarr: true}
     #summary:
   DCAU:
-    template: {name: collection, user: kulkoff, trakt: dc-animated-original-movies, collection: "421904, 379475, 593251", movie: 618353}
+    template: {name: collection, trakt: kulkoff/lists/dc-animated-original-movies, collection: "421904, 379475, 593251", movie: 618353}
     summary: The DC Universe Animated Original Movies are a series of American direct-to-video superhero animated films based on DC Comics characters and stories.
   Final Fantasy:
     template: {name: collection, imdb: ls022264056}
