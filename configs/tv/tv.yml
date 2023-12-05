@@ -100,5 +100,5 @@ collections:
   The Witcher:
     template: {name: collection, tvdb: the-witcher, sort: Witcher}
   Yellowstone:
-    template: {name: collection, tvdb: yellowstone}
+    template: {name: collection, show: "73586, 118357, 157744"}
     summary: "Yellowstone is an American neo-Western drama television series and follows the Dutton family, owners of the largest ranch in Montana, the Yellowstone Dutton Ranch, commonly called 'the Yellowstone'. Various spin-offs explore different generations of the Dutton family across differemt time periods."
