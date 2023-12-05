@@ -36,6 +36,8 @@ collections:
     template: {name: hidden, show: 60572}
   The Simpsons:
     template: {name: hidden, show: 456, sort: Simpsons}
+  Scott Pilgrim:
+    template: {name: hidden, show: 155292}
   South Park:
     template: {name: hidden, show: 2190}
   SpongeBob SquarePants:
