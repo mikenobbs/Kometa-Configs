@@ -42,12 +42,12 @@ collections:
   DCAU:
     template: {name: collection, trakt: kulkoff/lists/dc-animated-original-movies, collection: "421904, 379475, 593251", movie: 618353}
     summary: The DC Universe Animated Original Movies are a series of American direct-to-video superhero animated films based on DC Comics characters and stories.
+  The Dollars Trilogy:
+    template: {name: collection, sort: "Dollars Trilogy", imdb: ls023916334}
+    summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more movies. Theses three movies are consistently listed among the best rated Western films in history.
   Final Fantasy:
     template: {name: collection, imdb: ls022264056}
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
-  The Man with No Name:
-    template: {name: collection, sort: "Man with No Name", imdb: ls023916334}
-    summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more movies. Theses three movies are consistently listed among the best rated Western films in history.
   Middle-Earth:
     template: {name: collection, collection: "121938, 119", order: alpha}
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
