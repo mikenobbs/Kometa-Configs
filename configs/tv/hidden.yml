@@ -18,6 +18,8 @@ collections:
     template: {name: hidden, show: 33907}
   Family Guy:
     template: {name: hidden, show: 1434}
+  Flowers in the Attic:
+    template: {name: hidden, show: 203728}
   The Full Monty:
     template: {name: hidden, show: 196214, sort: Full Monty}
   Futurama:
