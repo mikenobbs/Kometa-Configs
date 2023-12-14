@@ -30,4 +30,4 @@ collections:
       name: seasonal
       schedule: 11/01-01/01
       season: Christmas
-      trakt: goape/lists/tv-christmas-episodes
+      trakt: ashleyangel/lists/christmas-episodes?sort=rank,asc
