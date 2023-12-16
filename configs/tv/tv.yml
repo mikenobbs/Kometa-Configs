@@ -7,6 +7,7 @@ templates:
     optional:
       - show
       - tvdb
+      - tvdbshow
       - user
       - trakt
       - sort
