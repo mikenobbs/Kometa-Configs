@@ -41,7 +41,7 @@ collections:
     template: {name: collection, tvdb: breaking-bad, show: 90746}
     summary: "Breaking Bad revolves around a terminally ill chemistry teacher, Walter White, who teams up with a former student, Jesse Pinkman, to manufacture crystal meth to secure his family's future. El Camino and Better Call Saul cover events that take place before and after the main show respectively."
   Buffyverse:
-    template: {name: collection, show: "95, 2426, 65316"}
+    template: {name: collection, tvdb: buffyverse}
     summary: The Buffyverse, a term, originally coined by fans, refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set.
   Clifford the Big Red Dog:
     template: {name: collection, tvdb: 8749}
@@ -93,7 +93,7 @@ collections:
     template: {name: collection, tvdb: supernatural}
     summary: "Supernatural is an American dark fantasy drama television series which follows the two Winchester brothers, Sam and Dean, as they hunt demons, ghosts, monsters, and other supernatural beings. A spin-off, The Winchesters, will explore how Sam amd Dean's parents met." 
   The Vampire Diaries:
-    template: {name: collecrion, tvdb: the-vampire-diaries, sort: Vampire Diaries}
+    template: {name: collection, tvdb: the-vampire-diaries, sort: Vampire Diaries}
   Walker:
     template: {name: collection, tvdb: walker}
     summary: Walker is an American action crime drama television series, it is a reboot of the 1990’s western drama television series Walker, Texas Ranger.  
