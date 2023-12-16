@@ -46,3 +46,5 @@ collections:
     template: {name: hidden, show: 2190}
   SpongeBob SquarePants:
     template: {name: hidden, show: 387}
+  Taylor Swift:
+    template: {name: hidden, show: 34309}
