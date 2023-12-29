@@ -1,290 +1,486 @@
 metadata:
   'Star Wars: The Clone Wars':
     seasons:
-      Specials:
-        episodes:
-          1:
-            user_rating:
       1:
-        title: Season 1
+        title: A Galaxy Divided
         episodes:
           1:
-            user_rating:
+            title:
+            summary: 
           2:
-            user_rating:
+            title:
+            summary: 
           3:
-            user_rating:
+            title:
+            summary: 
           4:
-            user_rating:
+            title:
+            summary: 
           5:
-            user_rating:
+            title:
+            summary: 
           6:
-            user_rating:
+            title:
+            summary: 
           7:
-            user_rating:
+            title:
+            summary: 
           8:
-            user_rating:
+            title:
+            summary: 
           9:
-            user_rating:
+            title:
+            summary: 
           10:
-            user_rating:
+            title:
+            summary: 
           11:
-            user_rating:
+            title:
+            summary: 
           12:
-            user_rating:
+            title:
+            summary: 
           13:
-            user_rating:
+            title:
+            summary: 
           14:
-            user_rating:
+            title:
+            summary: 
           15:
-            user_rating:
+            title:
+            summary: 
           16:
-            user_rating:
+            title:
+            summary: 
           17:
-            user_rating:
+            title:
+            summary: 
           18:
-            user_rating:
+            title:
+            summary: 
           19:
-            user_rating:
+            title:
+            summary: 
           20:
-            user_rating:
+            title:
+            summary: 
           21:
-            user_rating:
+            title:
+            summary: 
           22:
-            user_rating:
+            title:
+            summary: 
       2:
+        title: Rise of the Bounty Hunters
         episodes:
           1:
-            user_rating:
+            title:
+            summary: 
           2:
-            user_rating:
+            title:
+            summary: 
           3:
-            user_rating:
+            title:
+            summary: 
           4:
-            user_rating:
+            title:
+            summary: 
           5:
-            user_rating:
+            title:
+            summary: 
           6:
-            user_rating:
+            title:
+            summary: 
           7:
-            user_rating:
+            title:
+            summary: 
           8:
-            user_rating:
+            title:
+            summary: 
           9:
-            user_rating:
+            title:
+            summary: 
           10:
-            user_rating:
+            title:
+            summary: 
           11:
-            user_rating:
+            title:
+            summary: 
           12:
-            user_rating:
+            title:
+            summary: 
           13:
-            user_rating:
+            title:
+            summary: 
           14:
-            user_rating:
+            title:
+            summary: 
           15:
-            user_rating:
+            title:
+            summary: 
           16:
-            user_rating:
+            title:
+            summary: 
           17:
-            user_rating:
+            title:
+            summary: 
           18:
-            user_rating:
+            title:
+            summary: 
           19:
-            user_rating:
+            title:
+            summary: 
           20:
-            user_rating:
+            title:
+            summary: 
           21:
-            user_rating:
+            title:
+            summary: 
           22:
-            user_rating:
+            title:
+            summary: 
       3:
+        title: Secrets Revealed
         episodes:
           1:
-            user_rating:
+            title:
+            summary: 
           2:
-            user_rating:
+            title:
+            summary: 
           3:
-            user_rating:
+            title:
+            summary: 
           4:
-            user_rating:
+            title:
+            summary: 
           5:
-            user_rating:
+            title:
+            summary: 
           6:
-            user_rating:
+            title:
+            summary: 
           7:
-            user_rating:
+            title:
+            summary: 
           8:
-            user_rating:
+            title:
+            summary: 
           9:
-            user_rating:
+            title:
+            summary: 
           10:
-            user_rating:
+            title:
+            summary: 
           11:
-            user_rating:
+            title:
+            summary: 
           12:
-            user_rating:
+            title:
+            summary: 
           13:
-            user_rating:
+            title:
+            summary: 
           14:
-            user_rating:
+            title:
+            summary: 
           15:
-            user_rating:
+            title:
+            summary: 
           16:
-            user_rating:
+            title:
+            summary: 
           17:
-            user_rating:
+            title:
+            summary: 
           18:
-            user_rating:
+            title:
+            summary: 
           19:
-            user_rating:
+            title:
+            summary: 
           20:
-            user_rating:
+            title:
+            summary: 
           21:
-            user_rating:
+            title:
+            summary: 
           22:
-            user_rating:
+            title:
+            summary: 
       4:
+        title: Battle Lines
         episodes:
           1:
-            user_rating:
+            title:
+            summary: 
           2:
-            user_rating:
+            title:
+            summary: 
           3:
-            user_rating:
+            title:
+            summary: 
           4:
-            user_rating:
+            title:
+            summary: 
           5:
-            user_rating:
+            title:
+            summary: 
           6:
-            user_rating:
+            title:
+            summary: 
           7:
-            user_rating:
+            title:
+            summary: 
           8:
-            user_rating:
+            title:
+            summary: 
           9:
-            user_rating:
+            title:
+            summary: 
           10:
-            user_rating:
+            title:
+            summary: 
           11:
-            user_rating:
+            title:
+            summary: 
           12:
-            user_rating:
+            title:
+            summary: 
           13:
-            user_rating:
+            title:
+            summary: 
           14:
-            user_rating:
+            title:
+            summary: 
           15:
-            user_rating:
+            title:
+            summary: 
           16:
-            user_rating:
+            title:
+            summary: 
           17:
-            user_rating:
+            title:
+            summary: 
           18:
-            user_rating:
+            title:
+            summary: 
           19:
-            user_rating:
+            title:
+            summary: 
           20:
-            user_rating:
+            title:
+            summary: 
           21:
-            user_rating:
+            title:
+            summary: 
           22:
-            user_rating:
+            title:
+            summary: 
       5:
-        title: Season 5
+        title: Death and Destruction
         episodes:
           1:
-            user_rating:
+            title:
+            summary: 
           2:
-            user_rating:
+            title:
+            summary: 
           3:
-            user_rating:
+            title:
+            summary: 
           4:
-            user_rating:
+            title:
+            summary: 
           5:
-            user_rating:
+            title:
+            summary: 
           6:
-            user_rating:
+            title:
+            summary: 
           7:
-            user_rating:
+            title:
+            summary: 
           8:
-            user_rating:
+            title:
+            summary: 
           9:
-            user_rating:
+            title:
+            summary: 
           10:
-            user_rating:
+            title:
+            summary: 
           11:
-            user_rating:
+            title:
+            summary: 
           12:
-            user_rating:
+            title:
+            summary: 
           13:
-            user_rating:
+            title:
+            summary: 
           14:
-            user_rating:
+            title:
+            summary: 
           15:
-            user_rating:
+            title:
+            summary: 
           16:
-            user_rating:
+            title:
+            summary: 
           17:
-            user_rating:
+            title:
+            summary: 
           18:
-            user_rating:
+            title:
+            summary: 
           19:
-            user_rating:
+            title:
+            summary: 
           20:
-            user_rating:
+            title:
+            summary: 
+          21:
+            title:
+            summary: 
+          22:
+            title:
+            summary: 
       6:
+        title: The Lost Missions
         episodes:
           1:
-            user_rating:
+            title:
+            summary: 
           2:
-            user_rating:
+            title:
+            summary: 
           3:
-            user_rating:
+            title:
+            summary: 
           4:
-            user_rating:
+            title:
+            summary: 
           5:
-            user_rating:
+            title:
+            summary: 
           6:
-            user_rating:
+            title:
+            summary: 
           7:
-            user_rating:
+            title:
+            summary: 
           8:
-            user_rating:
+            title:
+            summary: 
           9:
-            user_rating:
+            title:
+            summary: 
           10:
-            user_rating:
+            title:
+            summary: 
           11:
-            user_rating:
+            title:
+            summary: 
           12:
-            user_rating:
+            title:
+            summary: 
           13:
-            user_rating:
+            title:
+            summary: 
+          14:
+            title:
+            summary: 
+          15:
+            title:
+            summary: 
+          16:
+            title:
+            summary: 
+          17:
+            title:
+            summary: 
+          18:
+            title:
+            summary: 
+          19:
+            title:
+            summary: 
+          20:
+            title:
+            summary: 
+          21:
+            title:
+            summary: 
+          22:
+            title:
+            summary: 
       7:
-        title: Season 7
+        title: The Final Season
         episodes:
           1:
-            user_rating:
+            title:
+            summary: 
           2:
-            user_rating:
+            title:
+            summary: 
           3:
-            user_rating:
+            title:
+            summary: 
           4:
-            user_rating:
+            title:
+            summary: 
           5:
-            user_rating:
+            title:
+            summary: 
           6:
-            user_rating:
+            title:
+            summary: 
           7:
-            user_rating:
+            title:
+            summary: 
           8:
-            user_rating:
+            title:
+            summary: 
           9:
-            user_rating:
+            title:
+            summary: 
           10:
-            user_rating:
+            title:
+            summary: 
           11:
-            user_rating:
+            title:
+            summary: 
           12:
-            user_rating:
+            title:
+            summary: 
+          13:
+            title:
+            summary: 
+          14:
+            title:
+            summary: 
+          15:
+            title:
+            summary: 
+          16:
+            title:
+            summary: 
+          17:
+            title:
+            summary: 
+          18:
+            title:
+            summary: 
+          19:
+            title:
+            summary: 
+          20:
+            title:
+            summary: 
+          21:
+            title:
+            summary: 
+          22:
+            title:
+            summary: 
