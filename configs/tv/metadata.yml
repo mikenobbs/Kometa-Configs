@@ -5,6 +5,21 @@ metadata:
         title: A Galaxy Divided
         episodes:
           1:
+            title: Cat and Mouse
+            summary: A Separatist blockade surrounds Christophsis. Anakin's fleet is tasked with deploying relief supplies to the surface but they are massively out-gunned and out-maneuvered by the skillful Admiral Trench. Obi-Wan arrives and unveils the Republic's new weapon: a stealth ship. The stealth ship is the last hope at besting the cunning Separatist fleet commander and aiding the battered people of Christophsis.
+
+            title: The Hidden Enemy
+            summary: Anakin Skywalker and Obi-Wan Kenobi lead Republic forces in an attempt to defeat the droid armies and free the planet of Christophsis from the Separatist siege. When the Republic is ambushed and forced to retreat, it becomes clear that someone in their midst has set them up. The Jedi believe this infiltration is a Sith-backed operation and go behind enemy lines to investigate. Meanwhile, Captain Rex and Commander Cody set out to uncover the traitor amongst them.
+
+            title: The Clone Wars
+            summary: As the Clone Wars sweep through the galaxy, the heroic Jedi Knights struggle to maintain order and restore peace. More and more systems are falling prey to the forces of the dark side as the Galactic Republic slips further and further under the sway of the Separatists and their never-ending droid army. Anakin Skywalker and his Padawan learner Ahsoka Tano find themselves on a mission with far-reaching consequences, one that brings them face-to-face with crime lord Jabba the Hutt. But Count Dooku and his sinister agents, including the nefarious Asajj Ventress, will stop at nothing to ensure that Anakin and Ahsoka fail at their quest. Meanwhile, on the front lines of the Clone Wars, Obi-Wan Kenobi and Master Yoda lead the massive clone army in a valiant effort to resist the forces of the dark side.
+
+            title: Clone Cadets
+            summary: Five headstrong clones struggle to complete their training on Kamino. These cadets -- Hevy, Cutup, Droidbait, Fives and Echo -- seem to be a `bad batch` and are unable to work as a team. As Shaak Ti and drill instructors Bric and El-Les debate the cadets' fate, the clones learn to work together and accept their destiny as soldiers.
+
+            title: Supply Lines
+            summary: Ryloth is under siege. Trapped on the surface, Jedi Master Di rallies the local forces with the help of Cham Syndulla. Desperate to save them, the Jedi Council dispatches Senator Bail Organa and Representative Jar Jar Binks to the planet Toydaria, where they are to convince the neutral regent, King Katuunko, to send aid to Ryloth. Bail and Jar Jar must convince Toydaria that their cause is just -- before it's too late. Trade Federation envoy Lott Dod attempts to prevent the Toydarians from giving up their neutrality. Katuunko follows his conscience and secretly aids the Republic, which Jar Jar is able to keep secret from the snooping Trade Federation agents with his inimitable distractions.
+            
             title: Ambush
             summary: Jedi Master Yoda and three clone troopers -- Jek, Thire, and Rys -- must face off against Count Dooku's dreaded assassin Ventress and her massive droid army to prove the Jedi are strong enough to protect a strategic planet and forge a treaty for the Republic
           2:
@@ -50,8 +65,7 @@ metadata:
             title: Trespass
             summary: Arriving on the desolate ice world of Orto Plutonia, Anakin Skywalker and Obi-Wan Kenobi investigate the disappearance of a clone security force stationed on a remote outpost. The Jedi, accompanied by Senator Riyo Chuchi and Chairman Cho of the nearby moon of Pantora, soon discover their clone troopers were attacked by a tribe of furry natives known as the Talz. Fierce beast-riding warriors, the Talz are very territorial and only want to be left alone. The Jedi manage to negotiate peace with the Talz chieftain, Thi-Sen, when greedy Chairman Cho breaks it by insisting the planet and the Talz are under his power. The resulting conflict escalates into war between the senator led clones and the Talz, with the Jedi in the middle.
           16:
-            title: The Hidden Enemy
-            summary: Anakin Skywalker and Obi-Wan Kenobi lead Republic forces in an attempt to defeat the droid armies and free the planet of Christophsis from the Separatist siege. When the Republic is ambushed and forced to retreat, it becomes clear that someone in their midst has set them up. The Jedi believe this infiltration is a Sith-backed operation and go behind enemy lines to investigate. Meanwhile, Captain Rex and Commander Cody set out to uncover the traitor amongst them.
+            
           17:
             title: Blue Shadow Virus
             summary: The Republic discovers a Separatist bio-weapon lab hidden on the planet of Naboo. Rather than wait for help, Padmé; explores the lab with Jar Jar. Anakin, Ahsoka, Rex, and Obi-Wan arrive and follow after her. They find that the Senator is being held captive by the sinister Dr. Nuvo Vindi. The mad scientist has been developing a lethal virus for the Separatists. Vindi threatens to set off a bomb and release the virus!
@@ -125,8 +139,7 @@ metadata:
             title: Senate Murders
             summary: When Senator Onaconda Farr dies under suspicious circumstances and the local Inspector appears incompetent, Padmé; sets out to find the person who poisoned her mentor. Following a trail of clues, Padmé and Bail Organa delve into a dangerous world of backstabbing, lies, and secrets controlled by the powerful Senators Mee Deechi and Halle Burtoni. Padmé's search forces her to risk her career and ideals but the true identity of the assassin is even more destructive than she could imagine.
           16:
-            title: Cat and Mouse
-            summary: A Separatist blockade surrounds Christophsis. Anakin's fleet is tasked with deploying relief supplies to the surface but they are massively out-gunned and out-maneuvered by the skillful Admiral Trench. Obi-Wan arrives and unveils the Republic's new weapon: a stealth ship. The stealth ship is the last hope at besting the cunning Separatist fleet commander and aiding the battered people of Christophsis.
+            
           17:
             title: Bounty Hunters
             summary: Anakin, Obi-Wan, and Ahsoka crash on Felucia and seek aid from the local spice farmers only to learn that the farmers are the ones who are in real need. Beset by Hondo Ohnaka and his band of pirates who plan to steal their crop, the farmers have contracted four deadly bounty hunters to protect their wares. In an unlikely partnership, the Jedi must work with the farmers' hired guns to beat back Hondo and his brigands.
@@ -149,14 +162,12 @@ metadata:
         title: Secrets Revealed
         episodes:
           1:
-            title: Clone Cadets
-            summary: Five headstrong clones struggle to complete their training on Kamino. These cadets -- Hevy, Cutup, Droidbait, Fives and Echo -- seem to be a `bad batch` and are unable to work as a team. As Shaak Ti and drill instructors Bric and El-Les debate the cadets' fate, the clones learn to work together and accept their destiny as soldiers.
+            
           2:
             title: ARC Troopers
             summary: The Republic learns of an impending Separatist attack on Kamino, and Anakin and Obi-Wan hurry to the planet. After the Republic repulses the Separatists' diversionary assault, the real attack begins. Asajj Ventress, General Grievous and an army of droids rise out of the oceans, bent on destroying Kamino's clone production facilities. Rex, Cody, Fives, and Echo lead the clones in a desperate defense of their home planet.
           3:
-            title: Supply Lines
-            summary: Ryloth is under siege. Trapped on the surface, Jedi Master Di rallies the local forces with the help of Cham Syndulla. Desperate to save them, the Jedi Council dispatches Senator Bail Organa and Representative Jar Jar Binks to the planet Toydaria, where they are to convince the neutral regent, King Katuunko, to send aid to Ryloth. Bail and Jar Jar must convince Toydaria that their cause is just -- before it's too late. Trade Federation envoy Lott Dod attempts to prevent the Toydarians from giving up their neutrality. Katuunko follows his conscience and secretly aids the Republic, which Jar Jar is able to keep secret from the snooping Trade Federation agents with his inimitable distractions.
+            
           4:
             title: Sphere of Influence
             summary: Chi Eekway and Che Amanwe, Chairman Papanoida's daughters, are kidnapped and held for ransom. Ahsoka Tano teams up with the Senator from Pantora, Riyo Chuchi, to aid the new chairman in recovering his family before the Trade Federation can unduly influence the future of his planet. The Chairman and his son, Ion, track down the kidnapper -- Greedo -- on Tatooine, and rescue Che Amanwe. Meanwhile, Ahsoka and Chuchi find Chi Eekway held captive aboard a blockading Trade Federation battleship over Pantora, and expose Trade Federation officer Sib Canay as a Separatist conspirator.
@@ -183,7 +194,7 @@ metadata:
             summary: Padmé, Bail Organa and Onaconda Farr attempt to rally Senators in opposition to a bill that would appropriate funds for millions of new clone troops and have disastrous financial consequences for the Republic. Their opposition to the measure, however, soon makes them targets for intimidation and attacks by hired guns. After escaping two hired thugs -- Chata Hyoki and Robonino -- in a harrowing speeder bike chase, Padmé is able to sway the Senate with a stirring account of how the war has affected an everyday civilian, her handmaiden Teckla Minnau.
           12:
             title: Nightsisters
-          Troubled by Asajj Ventress' growing prowess with the dark side of the Force, Darth Sidious commands Count Dooku to eliminate her. But Ventress survives Dooku's assassination attempt, and the jilted former apprentice vows to take revenge, enlisting the aid of her kinswomen -- the mystical Nightsisters -- in her sinister scheme. Mother Talzin, leader of the Nightsisters, veils Asajj and her fellow assassins in a cloak of invisibility, and they infiltrate Dooku's palace on Serenno. Though they fail to kill the Count, their use of captured Jedi lightsabers leads Dooku to mistakenly believe that the Jedi have tried to kill him. Interested in protection, he requests a new apprentice from Mother Talzin.
+            summary: Troubled by Asajj Ventress' growing prowess with the dark side of the Force, Darth Sidious commands Count Dooku to eliminate her. But Ventress survives Dooku's assassination attempt, and the jilted former apprentice vows to take revenge, enlisting the aid of her kinswomen -- the mystical Nightsisters -- in her sinister scheme. Mother Talzin, leader of the Nightsisters, veils Asajj and her fellow assassins in a cloak of invisibility, and they infiltrate Dooku's palace on Serenno. Though they fail to kill the Count, their use of captured Jedi lightsabers leads Dooku to mistakenly believe that the Jedi have tried to kill him. Interested in protection, he requests a new apprentice from Mother Talzin.
           13:
             title: Monster
             summary: When Count Dooku calls upon the Nightsisters seeking a replacement for Ventress, she and her kin seize the opportunity to exact revenge. Ventress visits the far side of Dathomir and the males of the planet seeking the most brutal and powerful warrior among them. Talzin has Asajj secretly select a warrior from the distant Nightbrother village: Savage Opress. With the power of dark magic, Talzin transforms Savage into a hulking warrior ultimately loyal to Asajj. She then delivers Opress to Dooku, where he will serve as his secret Sith apprentice in a plot to overthrow Darth Sidious.
@@ -279,7 +290,7 @@ metadata:
             summary: An aimless Asajj Ventress joins a team of bounty hunters under the leadership of young Boba Fett. On an alien world, they undertake a dangerous but profitable mission that tests the limits of their skills, and the strength of Asajj's character.
           21:
             title: Brothers
-               The dark warrior Savage Opress is on a quest to find his long-lost brother. Could Darth Maul truly be alive, after more than a decade since his gruesome bisection at the blade of Obi-Wan Kenobi? Savage voyages into the depths of a twisted planet to find whatever became of the fallen Sith Lord.
+            summary: The dark warrior Savage Opress is on a quest to find his long-lost brother. Could Darth Maul truly be alive, after more than a decade since his gruesome bisection at the blade of Obi-Wan Kenobi? Savage voyages into the depths of a twisted planet to find whatever became of the fallen Sith Lord.
           22:
             title: Revenge
             summary: Savage and Maul, now reunited, pursue Obi-Wan Kenobi in search of revenge, and the Jedi Knight finds himself forced to unite with a surprising ally to defend against the deadly siblings.
@@ -427,6 +438,3 @@ metadata:
           12:
             title: Victory and Death
             summary: In the wake of Order 66, Ahsoka and Rex must work together to survive.
-
-            title: The Clone Wars
-            summary: As the Clone Wars sweep through the galaxy, the heroic Jedi Knights struggle to maintain order and restore peace. More and more systems are falling prey to the forces of the dark side as the Galactic Republic slips further and further under the sway of the Separatists and their never-ending droid army. Anakin Skywalker and his Padawan learner Ahsoka Tano find themselves on a mission with far-reaching consequences, one that brings them face-to-face with crime lord Jabba the Hutt. But Count Dooku and his sinister agents, including the nefarious Asajj Ventress, will stop at nothing to ensure that Anakin and Ahsoka fail at their quest. Meanwhile, on the front lines of the Clone Wars, Obi-Wan Kenobi and Master Yoda lead the massive clone army in a valiant effort to resist the forces of the dark side."|"userRating"
