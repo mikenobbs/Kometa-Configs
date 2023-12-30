@@ -290,44 +290,44 @@ metadata:
         title: Death and Destruction
         episodes:
           1:
-            title: Revival
-            summary: Fueled by vengeance and rage, the newly reunited brothers Savage Opress and Darth Maul spread terror and violence across the galaxy. As the Sith brothers forcibly recruit Hondo Ohnaka and his pirates, Obi-Wan Kenobi and Adi Gallia chase them down, leading to a deadly confrontation.
-          2:
             title: A War on Two Fronts
             summary: Anakin, Obi-Wan, Ahsoka, and Rex travel to Onderon, a world under Separatist control. There, they will train a group of insurgent rebels -- including Lux Bonteri -- to help take back the capital city of Iziz from the rule of a duplicitous king.
-          3:
+          2:
             title: Front Runners
             summary: Supervised by Ahsoka, the Onderon rebels infiltrate the capital and carry out a series of strikes on targets throughout the city. As the Separatist-aligned king comes under increasing pressure to deal with the growing rebellion, the rebels choose a new leader.
-          4:
+          3:
             title: The Soft War
             summary: After a rebel attempt to rescue Onderon's true king, Ramsis Dendup, an unexpected ally steps forward to halt Dendup's execution and aid the rebel cause."|"userRating"
-          5:
+          4:
             title: Tipping Points
             summary: As a full-scale revolt embroils Onderon, the rebels strike a decisive blow against the planet's Separatist-aligned king. Unfortunately for the rebels, such victory comes at a high price.
-          6:
+          5:
             title: The Gathering
             summary:  Ahsoka escorts a group of younglings to Ilum, where they will learn from Yoda and undergo a crucial rite of passage: the construction of their lightsabers. They grapple with both physical and inner challenges as they face the dangerous task ahead of them.
-          7:
+          6:
             title: A Test of Strength
             summary: As the younglings return from Ilum with Ahsoka, their ship comes under attack by Hondo's gang of pirates. The children must use ingenious and improvised traps to thwart the brigands.
-          8:
+          7:
             title: Bound for Rescue
             summary: With Ahsoka captured by Hondo's pirates, the younglings work together to infiltrate the pirates' den, using their wits and courage to deceive Hondo Ohnaka and launch a daring rescue.
-          9:
+          8:
             title: A Necessary Bond
             summary: When General Grievous launches a full-scale attack on the pirate base on Florrum, Ahsoka and the younglings fight side-by-side with Hondo and his pirates to turn back the Separatist forces.
-          10:
+          9:
             title: Secret Weapons
             summary: R2-D2 is part of a team of Republic droids chosen for an important mission led by the diminutive Colonel Gascon to obtain an encryption module from a Separatist dreadnought. The droids must overcome numerous challenging obstacles to succeed in this crucial assignment.
-          11:
+          10:
             title: A Sunny Day in the Void
             summary: After a comet damages their shuttle, R2-D2, Colonel Gascon, and the other droids crash on a desolate planet where they must make their way across a bewildering expanse of emptiness to carry out their mission.
-          12:
+          11:
             title: Missing in Action
             summary: In a nearly vacant town, R2-D2 and his team find a clone commando suffering from amnesia.
-          13:
+          12:
             title: Point of No Return
             summary: R2-D2 and his team must stop a sabotaged Jedi cruiser from destroying a crucial Republic conference.
+          13:
+            title: Revival
+            summary: Fueled by vengeance and rage, the newly reunited brothers Savage Opress and Darth Maul spread terror and violence across the galaxy. As the Sith brothers forcibly recruit Hondo Ohnaka and his pirates, Obi-Wan Kenobi and Adi Gallia chase them down, leading to a deadly confrontation.
           14:
             title: Eminence
             summary: Savage and Maul forge an alliance with Death Watch to target a common enemy: Obi-Wan Kenobi.
@@ -395,29 +395,29 @@ metadata:
         title: The Final Season
         episodes:
           1:
-            title: The Bad Batch
-            summary: The clones look to uncover the source of the Separatists' strategies...and bring in an elite squad called the Bad Batch.
-          2:
-            title: A Distant Echo
-            summary: Rex, Anakin, and the Bad Batch look to uncover the truth surrounding a mysterious Separatist signal.
-          3:
-            title: On the Wings of Keeradaks
-            summary: Rex has found his friend, Echo, in the clutches of the Techno Union. But the rescue is just beginning.
-          4:
-            title: Unfinished Business
-            summary: While Jedi Mace Windu and Obi-Wan Kenobi lead an attack against the Separatist forces on Anaxes, the Bad Batch and Anakin Skywalker infiltrate an enemy starship to ensure a Republic victory.
-          5:
             title: Gone With a Trace
             summary: After leaving the Jedi Order, Ahsoka Tano finds herself in the underworld of Coruscant where she befriends aspiring pilot Trace Martez. Enlisted by Trace’s sister Rafa to help build dangerous droids, Ahsoka opts to keep her Jedi past a secret.
-          6:
+          2:
             title: Deal No Deal
             summary: Rafa lands a dangerous job running spice — and she needs Ahsoka and Trace's help.
-          7:
+          3:
             title: Dangerous Debt
             summary: Captured by the Pyke Syndicate, Ahsoka and the Martez sisters attempt a daring escape.
-          8:
+          4:
             title: Together Again
             summary: Captured by the Pykes once more, Ahsoka and the Martez sisters are running out of options.
+          5:
+            title: The Bad Batch
+            summary: The clones look to uncover the source of the Separatists' strategies...and bring in an elite squad called the Bad Batch.
+          6:
+            title: A Distant Echo
+            summary: Rex, Anakin, and the Bad Batch look to uncover the truth surrounding a mysterious Separatist signal.
+          7:
+            title: On the Wings of Keeradaks
+            summary: Rex has found his friend, Echo, in the clutches of the Techno Union. But the rescue is just beginning.
+          8:
+            title: Unfinished Business
+            summary: While Jedi Mace Windu and Obi-Wan Kenobi lead an attack against the Separatist forces on Anaxes, the Bad Batch and Anakin Skywalker infiltrate an enemy starship to ensure a Republic victory.
           9:
             title: Old Friends Not Forgotten
             summary: The Siege of Mandalore begins, and Ahsoka turns to Anakin and Obi-Wan for help.
