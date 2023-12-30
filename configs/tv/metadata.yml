@@ -1,3 +1,7 @@
+######################################################
+#               Custom Metadata Edits                #
+######################################################
+
 metadata:
   'Star Wars: The Clone Wars':
     seasons:
@@ -76,9 +80,9 @@ metadata:
           24:
             title: Innocents of Ryloth
             summary: >-
-              The costs of war can never be truly accounted for. 
+                    The costs of war can never be truly accounted for. 
               
-              Upon arriving on Ryloth the Republic discovers that the Separatists have enslaved the entire population.
+                    Upon arriving on Ryloth the Republic discovers that the Separatists have enslaved the entire population.
           25:
             title: Liberty on Ryloth
             summary: The battle for the Twi'lek homeworld of Ryloth rages as the Republic attempts to drive off the occupying droid army led by Separatist Leader, Wat Tambor. With his forces stretched thin, Mace Windu must convince Twi'lek freedom fighter, Cham Syndulla, to help him save the capital city from the droids' destruction. Initially, the Twi'lek hero is hesitant to aid Mace, but ultimately realizes the Jedi can be trusted and joins with him to liberate the city -- and ultimately the planet -- in the climactic battle.
@@ -91,9 +95,9 @@ metadata:
           2:
             title: Cargo of Doom
             summary: >-
-              Overconfidence is the most dangerous form of carelessness.
+                    Overconfidence is the most dangerous form of carelessness.
           
-              Anakin and Ahsoka have Cad Bane cornered over the planet of Devaron. Upon entering the ship, Cad Bane cunningly gets Anakin to open the Holocron.
+                    Anakin and Ahsoka have Cad Bane cornered over the planet of Devaron. Upon entering the ship, Cad Bane cunningly gets Anakin to open the Holocron.
           3:
             title: Children of the Force
             summary: Cad Bane has stolen a Jedi holocron which holds the secret locations of the galaxy's Force-sensitive children. Bane is tasked by Darth Sidious to kidnap several of the children to train as Sith spies. On one such kidnapping attempt, Bane is captured by Anakin and Ahsoka and brought before Obi-Wan and Mace Windu to have his mind probed. Unable to resist the combined Force powers of the Jedi, Bane agrees to lead Kenobi and Windu to his hidden base while Anakin and Ahsoka venture to Mustafar to save the stolen children from Darth Sidious' evil plot.
