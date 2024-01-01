@@ -29,7 +29,7 @@ collections:
     template: 
       name: seasonal
       season: Christmas
-      schedule: 11/01-01/01
+      schedule: 11/01-12/31
       trakt: 
         - https://trakt.tv/users/plexmetamanager/lists/christmas-extravaganza-non-tv-movie
         - https://trakt.tv/users/ubjeckle/lists/christmas-movies?sort=rank,asc
