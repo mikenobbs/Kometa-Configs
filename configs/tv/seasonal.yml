@@ -28,6 +28,6 @@ collections:
   Christmas:
     template: 
       name: seasonal
-      schedule: 11/01-01/01
+      schedule: 11/01-12/31
       season: Christmas
       trakt: ashleyangel/lists/christmas-episodes?sort=rank,asc
