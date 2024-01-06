@@ -3,11 +3,6 @@
 ######################################################
 
 templates:
-  order:
-    cache_builders: 365
-    libraries: TV Shows
-    trakt_list: https://trakt.tv/users/<<trakt>>
-    collection_order: custom
   top:
     cache_builders: 1
     libraries: TV Shows
@@ -27,6 +22,3 @@ playlists:
   South Park Top 100 Episodes:
     template: {name: top, imdb: tt0121955}
     summary: Top 100 episodes of South Park based on IMDb user rating.
-  "Star Wars: The Clone Wars - Chronological Order":
-    template: {name: order, trakt: tomfin46/lists/star-wars-the-clone-wars-chronological-episode-order}
-    summary: The entire Clone Wars saga, culminating in the fall of the Jedi, in chronological order.
