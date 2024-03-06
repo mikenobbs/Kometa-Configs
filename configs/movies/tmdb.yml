@@ -51,6 +51,7 @@ dynamic_collections:
     title_override:
       750822: The Addams Family
       125574: The Amazing Spider-Man
+      1231053: The Bad Guys
       948485: The Batman
       722971: Benoit Blanc Mysteries
       743824: The Christmas Chronicles 
@@ -79,6 +80,9 @@ dynamic_collections:
       683698: Zombies
     template_variables:
       movie:
+        1231053:       # Bad Guys
+          - 981424     # Maraschino Ruby
+          - 1046032    # Bad Holiday
         466463:        # Descendants
           - 805411     # The Royal Wedding
         9485:          # Fast & Furious
@@ -148,6 +152,7 @@ dynamic_collections:
       sort:
         750822: Addams Family
         125574: Amazing Spider-Man
+        1231053: Bad Guys
         948485: Batman
         334996: Batman, Son of
         743824: Christmas Chronicles
