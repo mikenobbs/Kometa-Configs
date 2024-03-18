@@ -248,3 +248,7 @@ dynamic_collections:
       - 109608    # Van Helsing
       - 468552    # Wonder Woman
       - 404825    # Wreck-It Ralph
+      # Cached errors
+      - 1011336   # Eternals
+      - 1051005   # Greyhound
+      - 1246002   # Peanuts
