@@ -103,6 +103,8 @@ collections:
     summary: Fight the dead. Fear the living. The Walking Dead is a zombie apocalypse media franchise based on the comic book series of the same name, created by writer Robert Kirkman and artist Tony Moore.
   The Witcher:
     template: {name: collection, tvdb: the-witcher, sort: Witcher}
+  X-Men:
+    template: {name: collection, tvdb: x-men-animated-series}
   Yellowstone:
     template: {name: collection, show: "73586, 118357, 157744"}
     summary: "Yellowstone is an American neo-Western drama television series and follows the Dutton family, owners of the largest ranch in Montana, the Yellowstone Dutton Ranch, commonly called 'the Yellowstone'. Various spin-offs explore different generations of the Dutton family across differemt time periods."
