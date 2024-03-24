@@ -103,7 +103,7 @@ collections:
     summary: Fight the dead. Fear the living. The Walking Dead is a zombie apocalypse media franchise based on the comic book series of the same name, created by writer Robert Kirkman and artist Tony Moore.
   The Witcher:
     template: {name: collection, tvdb: the-witcher, sort: Witcher}
-  X-Men:
+  X-Men (Animated):
     template: {name: collection, tvdb: x-men-animated-series}
   Yellowstone:
     template: {name: collection, show: "73586, 118357, 157744"}
