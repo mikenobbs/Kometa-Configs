@@ -5,16 +5,22 @@
 templates:
   streaming:
     conditionals:
-      watch_region:
-        default: ""
+      discover_region:
         conditions:
-          - key: [amazon, disney, netflix]
-            value: "-uk"
+          - originals_only: false
+            value: <<region>>
+      discover_with:
+        conditions:
+          - originals_only: false
+            value: <<key>>
     smart_label:
       sort_by: release.desc
       all:
         label: <<smart_label>>
-    mdblist_list: https://mdblist.com/lists/plexmetamanager/<<key>>-<<library_type>>s<<watch_region>>
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/<<key>>
+    tmdb_discover:
+      with_watch_providers: <<discover_with>>
+      watch_region: <<discover_region>>
     summary: Collection of <<library_type>>s currently streaming on <<collection_name>>.
     sort_title: ++<<collection_name>>
 
@@ -23,9 +29,9 @@ dynamic_collections:
     template: streaming
     type: custom
     data:
-      appletv: Apple TV+
-      disney: Disney+
-      max: Max
-      netflix: Netflix
-      amazon: Prime Video
+      350: Apple TV+
+      337: Disney+
+      1899: Max
+      8: Netflix
+      9: Prime Video
     title_format: <<key_name>>
