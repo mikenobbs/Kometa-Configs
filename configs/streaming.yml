@@ -17,7 +17,7 @@ templates:
       sort_by: release.desc
       all:
         label: <<smart_label>>
-    mdblist_list: https://mdblist.com/lists/plexmetamanager/<<key>>-originals
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/<<url_key>>-originals
     tmdb_discover:
       with_watch_providers: <<discover_with>>
       watch_region: <<discover_region>>
@@ -35,3 +35,10 @@ dynamic_collections:
       8: Netflix
       9: Prime Video
     title_format: <<key_name>>
+    template_variables:
+      url_key:
+        350: appletv
+        337: disney
+        1899: max
+        8: netflix
+        9: amazon
