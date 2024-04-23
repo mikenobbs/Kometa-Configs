@@ -4,24 +4,36 @@
 
 templates:
   streaming:
-    #smart_label:
-      #sort_by: release.desc
-      #all:
-        #label: <<smart_label>>
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
     tmdb_discover:
-      with_watch_providers: <<key>>
-      limit: 1000
+      with_watch_providers: <<id>>
+      #limit: 1000
     summary: Collection of <<library_type>>s currently streaming on <<collection_name>>.
     sort_title: ++<<collection_name>>
 
-dynamic_collections:
-  Streaming:
-    template: streaming
-    type: custom
-    data:
-      350: Apple TV+
-      337: Disney+
-      1899: Max
-      8: Netflix
-      9: Prime Video
-    title_format: <<key_name>>
+#dynamic_collections:
+  #Streaming:
+    #template: streaming
+    #type: custom
+    #data:
+      #350: Apple TV+
+      #337: Disney+
+      #1899: Max
+      #8: Netflix
+      #9: Prime Video
+    #title_format: <<key_name>>
+collections:
+  Apple TV+:
+    template: {name: streaming, id: 350}
+  Disney+:
+    template: {name: streaming, id: 337}
+  Max:
+    template: {name: streaming, id: 1899}
+  Netflix:
+    template: {name: streaming, id: 8}
+  Prime Video:
+    template: {name: streaming, id: 9}
+  
