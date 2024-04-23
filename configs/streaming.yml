@@ -6,8 +6,8 @@ templates:
   streaming:
     smart_label:
       sort_by: release.desc
-      all:
-        label: <<smart_label>>
+      #all:
+        #label: <<smart_label>>
     tmdb_discover:
       with_watch_providers: <<id>>
       #limit: 1000
