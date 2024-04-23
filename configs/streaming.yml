@@ -4,8 +4,7 @@
 
 templates:
   streaming:
-    smart_label:
-      sort_by: release.desc
+    smart_label: release.desc
       #all:
         #label: <<smart_label>>
     tmdb_discover:
