@@ -4,7 +4,8 @@
 
 templates:
   streaming:
-    smart_label: release.desc
+    smart_label: 
+      sort_by: release.desc
       all:
         label: <<smart_label>>
     mdblist_list: https://mdblist.com/lists/k0meta/<<key>>-originals
