@@ -24,4 +24,4 @@ dynamic_collections:
       netflix: Netflix
       paramount: Paramount+
       amazon: Prime Video
-    title_format: <<key_name>> Originals
+    title_format: <<key_name>>
