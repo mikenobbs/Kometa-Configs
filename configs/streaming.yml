@@ -9,7 +9,7 @@ templates:
       all:
         label: <<smart_label>>
     mdblist_list: https://mdblist.com/lists/k0meta/<<key>>-originals
-    summary: Collection of original <<library_type>>s currently streaming on <<key_name>>.
+    summary: Collection of <<collection_name>> Original <<library_type>>s currently streaming.
     sort_title: ++<<collection_name>>
 
 dynamic_collections:
