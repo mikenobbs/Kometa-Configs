@@ -18,7 +18,8 @@ templates:
     tmdb_movie: <<movie>>
     tvdb_list_details: https://thetvdb.com/lists/<<tvdb>>
     trakt_list_details: https://trakt.tv/users/<<trakt>>
-    imdb_list: https://www.imdb.com/list/<<imdb>>/
+    imdb_search: 
+      list: <<imdb>>
     radarr_add_missing: <<radarr>>
     sort_title: <<sort>>
     collection_order: <<order>>
