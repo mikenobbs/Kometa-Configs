@@ -23,6 +23,9 @@ templates:
     radarr_add_missing: <<missing>>
 
 collections:
+  A24:
+    template: {name: studio, trakt: fidel-cb/lists/a24}
+    summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution.
   Disney Live-Action:
     template: {name: studio, trakt: redheadjedi/lists/walt-disney-live-action-movies}
     summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
