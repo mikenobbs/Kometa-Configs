@@ -1,0 +1,201 @@
+libraries:
+  Movies:
+    collection_files:
+      - repo: movies/awards
+        asset_directory: config/assets/awards
+      - repo: movies/movies
+        asset_directory: config/assets/collections
+      - repo: movies/hidden
+        asset_directory: config/assets/collections
+      - repo: movies/tmdb
+        asset_directory: config/assets/collections
+      - repo: charts
+        asset_directory: config/assets/charts
+      - repo: movies/studios
+        asset_directory: config/assets/studios
+      - repo: movies/people
+        asset_directory: config/assets/people
+      - repo: movies/trakt
+        asset_directory: config/assets/collections
+      - repo: streaming
+        asset_directory: config/assets/streaming
+      - repo: movies/seasonal
+        asset_directory: config/assets/seasonal
+    remove_overlays: false
+    overlay_files:
+      - reapply_overlays: false
+      - repo: overlays/movies
+    radarr:
+      url: http://radarr:7878/radarr
+      token: 
+      add_existing: false
+      add_missing: false
+      search: false
+      monitor: true
+      availability: released
+      root_folder_path:
+      quality_profile: HD 1080p
+      upgrade_existing: false
+      monitor_existing: false
+      ignore_cache: false
+      radarr_path:
+      plex_path:
+    operations:
+      assets_for_all: true
+      split_duplicates: false
+      content_rating_mapper:
+        gb/12A: gb/12
+      metadata_backup:
+        path: config/metadata/movies.yml
+        sync_tags: true
+        add_blank_entries: true
+    settings:
+      asset_directory: config/assets/movies
+  TV Shows:
+    collection_files:
+      - repo: tv/tv
+        asset_directory: config/assets/collections
+      - repo: tv/hidden
+        asset_directory: config/assets/collections
+      - repo: tv/trakt
+        asset_directory: config/assets/collections
+      - repo: charts
+        asset_directory: config/assets/charts
+      - repo: streaming
+        asset_directory: config/assets/streaming
+      - repo: tv/seasonal
+        asset_directory: config/assets/seasonal
+    metadata_files:
+      - repo: tv/metadata
+    remove_overlays: false
+    overlay_files:
+      - reapply_overlays: false
+      - repo: overlays/tv
+    sonarr:
+      url: http://sonarr:8989/sonarr
+      token: 
+      add_existing: false
+      add_missing: false
+      search: false
+      cutoff_search: false
+      monitor: all
+      root_folder_path: 
+      quality_profile: HD 1080p
+      language_profile: English
+      upgrade_existing: false
+      monitor_existing: false
+      ignore_cache: false
+      series_type: standard
+      season_folder: true
+      sonarr_path:
+      plex_path:
+    operations:
+      assets_for_all: true
+      split_duplicates: false
+      item_tmdb_season_titles: true
+      content_rating_mapper:
+        gb/12A: gb/12
+      metadata_backup:
+        path: config/metadata/tv.yml
+        sync_tags: true
+        add_blank_entries: true
+    settings:
+      asset_directory: config/assets/tv
+playlist_files:
+  - repo: playlists
+    asset_directory: config/assets/playlists
+settings:
+  cache: true
+  cache_expiration: 60
+  asset_folders: true
+  show_missing_assets: false
+  create_asset_folders: true
+  sync_mode: sync
+  show_unmanaged: true
+  show_filtered: true
+  show_missing: true
+  save_missing: true
+  run_again_delay: 2
+  missing_only_released: true
+  delete_below_minimum: false
+  notifiarr_collection_creation: true
+  notifiarr_collection_addition: true
+  notifiarr_collection_removing: true
+  tvdb_language: default
+  only_filter_missing: false
+  delete_not_scheduled: false
+  show_missing_season_assets: false
+  ignore_ids:
+  ignore_imdb_ids:
+  asset_depth: 2
+  show_options: false
+  dimensional_asset_rename: true
+  download_url_assets: true
+  minimum_items: 2
+  verify_ssl: true
+  default_collection_order: release
+  item_refresh_delay: 0
+  playlist_sync_to_users: all
+  custom_repo: https://raw.githubusercontent.com/mikenobbs/Kometa-Configs/main/configs/
+  show_missing_episode_assets: false
+  show_asset_not_needed: false
+  prioritize_assets: true
+  playlist_report: true
+  check_nightly: true
+  show_unconfigured: true
+  playlist_exclude_users:
+  asset_directory:
+  run_order:
+  - operations
+  - metadata
+  - collections
+  - overlays
+  overlay_filetype: jpg
+  overlay_quality:
+  overlay_artwork_filetype: jpg
+  overlay_artwork_quality:
+webhooks:
+  error: notifiarr
+  collection_removing: notifiarr
+  run_start: notifiarr
+  run_end: notifiarr
+  changes:
+  - notifiarr
+  version:
+  delete: notifiarr
+plex:
+  url: http://plex:32400
+  token: 
+  timeout: 120
+  clean_bundles: true
+  empty_trash: true
+  optimize: true
+  db_cache:
+  verify_ssl:
+tmdb:
+  apikey: 
+  language: en
+  cache_expiration: 60
+  region: GB
+tautulli:
+  url: http://tautulli:8181/tautulli
+  apikey: 
+omdb:
+  apikey: 
+  cache_expiration: 60
+mdblist:
+  apikey: 
+  cache_expiration: 60
+notifiarr:
+  apikey:
+trakt:
+  client_id: 
+  client_secret: 
+  authorization:
+    access_token:
+    token_type:
+    expires_in: 
+    refresh_token:
+    scope:
+    created_at:
+  pin:
