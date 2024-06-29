@@ -24,10 +24,10 @@ templates:
     sort_title: +++++<<collection_name>>
   imdb:
     imdb_chart: <<chart>>_<<library_type>>s
-    smart_filter:
+    smart_label:
+      sort_by: audience_rating.desc
       all:
-        release.before: today
-    collection_order: custom
+        label: <<smart_label>>
     sort_title: ++++<<collection_name>>
     summary: The top 250 best <<library_type>>s of all time based on IMDb user ratings.
   charts:
