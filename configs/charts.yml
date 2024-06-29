@@ -26,7 +26,7 @@ templates:
     imdb_chart: <<chart>>_<<library_type>>s
     smart_filter:
       all:
-        limit: 250
+        release.before: today
     collection_order: custom
     sort_title: ++++<<collection_name>>
     summary: The top 250 best <<library_type>>s of all time based on IMDb user ratings.
