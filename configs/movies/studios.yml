@@ -18,7 +18,7 @@ templates:
           studio: <<studio>>
   studio:
     optional:
-      - missing
+      - radarr
     trakt_list: https://trakt.tv/users/<<trakt>>
     radarr_add_missing: <<radarr>
 
