@@ -41,6 +41,6 @@ collections:
     template: {name: studio-search, studio: Disney, include: animation, ignore: "Disney Pixar, Disney Live-Action"}
     summary: Walt Disney Animation Studios, sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Walt Disney Studios lot in Burbank, California.
   Studio Ghibli:
-    template: {name: studio, trakt: asterlea/lists/studio-ghibli, missing: true}
+    template: {name: studio, trakt: asterlea/lists/studio-ghibli, radarr: true}
     tmdb_movie: 1044343
     summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
