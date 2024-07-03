@@ -16,9 +16,10 @@ templates:
       - order
     conditionals:
       limit:
-        default: 0
+        default: ""
         conditions:
-          - list: true
+          - list: <<imdb>>
+            value: 0
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
     trakt_list_details: https://trakt.tv/users/<<trakt>>
