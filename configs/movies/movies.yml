@@ -11,6 +11,7 @@ templates:
       - user
       - trakt
       - imdb
+      - limit
       - radarr
       - sort 
       - order
