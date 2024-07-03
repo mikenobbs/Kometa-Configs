@@ -20,12 +20,7 @@ templates:
     trakt_list_details: https://trakt.tv/users/<<trakt>>
     imdb_search: 
       list: <<imdb>>
-      conditionals:
-        limit:
-          default: ""
-          conditions:
-            - list: <<imdb>>
-              value: 0
+      limit: <<limit>>
     radarr_add_missing: <<radarr>>
     sort_title: <<sort>>
     collection_order: <<order>>
@@ -35,17 +30,17 @@ collections:
     template: {name: collection, trakt: benfishbus/lists/peanuts}
     summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
   Cloverfield:
-    template: {name: collection, imdb: ls096108041}
+    template: {name: collection, imdb: ls096108041, limit: 0}
     summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
   The Cornetto Trilogy:
-    template: {name: collection, sort: "Cornetto Trilogy", imdb: ls068623110}
+    template: {name: collection, sort: "Cornetto Trilogy", imdb: ls068623110, limit: 0}
     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost.
   DC Animated Universe:
     template: {name: collection, trakt: zosoleary/lists/dc-animated-universe}
     summary: The DC Universe Animated Original Movies are a series of American direct-to-video superhero animated films based on DC Comics characters and stories.
   DC Elseworlds:
     template: {name: collection, trakt: andresatierf/lists/dc-elseworlds}
-    summary: 
+    summary: DC Elseworlds consists of DC adaptations that do not fit within the DCEU/DCU continuity.
   DC Extended Universe:
     template: {name: collection, trakt: twa96/lists/dceu, radarr: true}
     summary: The DC Extended Universe (DCEU) is an American media franchise and shared universe centered on a series of superhero films produced by DC Studios and distributed by Warner Bros. Pictures.
@@ -53,10 +48,10 @@ collections:
     template: {name: collection, trakt: ianismajoris/lists/dc-universe, radarr: true}
     summary: The DC Universe (DCU) is an American media franchise and shared universe based on characters from DC Comics publications.
   The Dollars Trilogy:
-    template: {name: collection, sort: "Dollars Trilogy", imdb: ls023916334}
+    template: {name: collection, sort: "Dollars Trilogy", imdb: ls023916334, limit: 0}
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more movies. Theses three movies are consistently listed among the best rated Western films in history.
   Final Fantasy:
-    template: {name: collection, imdb: ls022264056}
+    template: {name: collection, imdb: ls022264056, limit: 0}
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
   Middle-Earth:
     template: {name: collection, collection: "121938, 119", order: alpha}
@@ -65,13 +60,13 @@ collections:
     template: {name: collection, trakt: superfabio/lists/monsterverse}
     summary: MonsterVerse is an American multimedia franchise and shared universe featuring Godzilla and other sister characters owned and created by Toho Co., Ltd, as well as King Kong.
   Monty Python:
-    template: {name: collection, imdb: ls072012494}
+    template: {name: collection, imdb: ls072012494, limit: 0}
     summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies.
   Taylor Swift:
     template: {name: collection, movie: "80009, 373558, 568332, 653567, 701684, 768141, 1160164"}
     summary: "Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter. Her songwriting, artistry, and entrepreneurship have influenced the music industry and popular culture, and her life is a subject of widespread media coverage. One of the best-selling musicians with 200 million records sold, Swift has earned 117 Guinness World Records and received the Global Recording Artist of the Year award three times from the International Federation of the Phonographic Industry. She is the highest-grossing female touring act, the most streamed woman on Spotify and Apple Music, and the first billionaire with music as the main source of income. A Time Person of the Year (2023), Swift has appeared on lists such as Rolling Stone's 100 Greatest Songwriters of All Time, Billboard's Greatest of All Time Artists, and the World's 100 Most Powerful Women by Forbes."
   Unbreakable:
-    template: {name: collection, imdb: ls022101006}
+    template: {name: collection, imdb: ls022101006, limit: 0}
     summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
   Wizarding World:
     template: {name: collection, collection: "1241, 435259", order: alpha}
