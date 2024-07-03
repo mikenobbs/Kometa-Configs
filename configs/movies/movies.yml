@@ -40,7 +40,7 @@ collections:
     summary: The DC Universe Animated Original Movies are a series of American direct-to-video superhero animated films based on DC Comics characters and stories.
   DC Elseworlds:
     template: {name: collection, trakt: andresatierf/lists/dc-elseworlds}
-    summary: DC Elseworlds consists of DC adaptations that do not fit within the DCEU/DCU continuity.
+    summary: "DC Elseworlds consists of DC adaptations that do not fit within the DCEU/DCU continuity. Currently, this includes:\n   - Teen Titans Go! (2013–present)\n   - Joker (2019) and Joker: Folie à Deux (2024)\n   - Harley Quinn (2019–present)\n   - Superman & Lois (2021–present)\n   - The Batman (2022) and The Batman – Part II (2026) as well as an in-development third The Batman film and spin-off series The Penguin, as well as an in-development series featuring the Gotham City Police Department\n   - A Black-led Superman film (planned)\n   - A sequel to the film Constantine (2005) (planned)\n   - All DC Universe Animated Original Movies\n   - Merry Little Batman (2023)\n   - An animated film based on the comic The Jurassic League (2022) (planned)"
   DC Extended Universe:
     template: {name: collection, trakt: twa96/lists/dceu, radarr: true}
     summary: The DC Extended Universe (DCEU) is an American media franchise and shared universe centered on a series of superhero films produced by DC Studios and distributed by Warner Bros. Pictures.
