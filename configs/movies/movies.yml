@@ -14,12 +14,17 @@ templates:
       - radarr
       - sort 
       - order
+    conditionals:
+      limit:
+        default: 0
+        conditions:
+          - list: true
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
     trakt_list_details: https://trakt.tv/users/<<trakt>>
     imdb_search: 
       list: <<imdb>>
-      limit: 0
+      limit: <<limit>>
     radarr_add_missing: <<radarr>>
     sort_title: <<sort>>
     collection_order: <<order>>
