@@ -17,7 +17,6 @@ templates:
       - order
     conditionals:
       limit:
-        default:
         conditions:
           - list: <<imdb>>
             value: 0
