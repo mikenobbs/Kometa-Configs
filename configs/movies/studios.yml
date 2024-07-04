@@ -3,24 +3,18 @@
 ######################################################
 
 templates:
-  studio-search:
-    optional:
-      - include
-      - exclude
-      - ignore
-    plex_search:
-      validate: true
-      all:
-        genre: <<include>>
-        genre.not: <<exclude>>
-        collection.not: <<ignore>>
-        any:
-          studio: <<studio>>
   studio:
     optional:
+      - movie
+      - trakt
+      - ignore
       - radarr
+    tmdb_movie: <<movie>>
     trakt_list: https://trakt.tv/users/<<trakt>>
-    radarr_add_missing: <<radarr>
+    plex_search:
+      all:
+        collection.not: <<ignore>>
+    radarr_add_missing: <<radarr>>
 
 collections:
   A24:
@@ -30,17 +24,23 @@ collections:
     template: {name: studio, trakt: redheadjedi/lists/walt-disney-live-action-movies}
     summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
   Disney Pixar:
-    trakt_list: 
-      - https://trakt.tv/users/watertrooper/lists/pixar-movies
-      - https://trakt.tv/users/pullsa/lists/pixar-animation-studios-shorts
-      - https://trakt.tv/lists/official/toy-story-toons-collection
-    tmdb_movie: 979163
-    radarr_add_missing: true
+    template:
+      name: studio
+      trakt_list: 
+        - watertrooper/lists/pixar-movies
+        - pullsa/lists/pixar-animation-studios-shorts
+      movie: 979163
+      radarr: true
+    trakt_list: https://trakt.tv/lists/official/toy-story-toons-collection
     summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios owned by The Walt Disney Company. Pixar began in 1979 and was purchased by Disney in 2006 at a valuation of $7.4 billion. Pixar is best known for its feature films and animated shorts. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
   Disney Animation:
-    template: {name: studio-search, studio: Disney, include: animation, ignore: "Disney Pixar, Disney Live-Action"}
+    template: 
+      name: studio 
+      trakt:
+        - danj06/lists/disney-animated-movies-1937-2024
+        - asterlea/lists/disneytoon-studios
+      ignore: "Disney Pixar, Disney Live-Action"
     summary: Walt Disney Animation Studios, sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Walt Disney Studios lot in Burbank, California.
   Studio Ghibli:
-    template: {name: studio, trakt: asterlea/lists/studio-ghibli, radarr: true}
-    tmdb_movie: 1044343
+    template: {name: studio, trakt: asterlea/lists/studio-ghibli, movie: 1044343, radarr: true}
     summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
