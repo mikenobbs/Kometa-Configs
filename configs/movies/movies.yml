@@ -31,16 +31,16 @@ collections:
     summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
   Cloverfield:
     template: {name: collection, imdb: ls096108041, limit: 0}
-    summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
+    summary: "Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the 'Cloververse'. The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space."
   The Cornetto Trilogy:
     template: {name: collection, sort: "Cornetto Trilogy", imdb: ls068623110, limit: 0}
     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost.
   DC Animated Universe:
-    template: {name: collection, trakt: zosoleary/lists/dc-animated-universe}
-    summary: The DC Universe Animated Original Movies are a series of American direct-to-video superhero animated films based on DC Comics characters and stories.
+    template: {name: collection, imdb: ls567731488, limit: 0}
+    summary: The DC Animated Universe (DCAU, also referred to as the Timmverse or Diniverse by fans) is a shared universe centered on a group of animated television series based on DC Comics and produced by Warner Bros. Animation.
   DC Elseworlds:
     template: {name: collection, trakt: andresatierf/lists/dc-elseworlds}
-    summary: "DC Elseworlds consists of DC adaptations that do not fit within the DCEU/DCU continuity. Currently, this includes:\n   - Teen Titans Go! (2013–present)\n   - Joker (2019) and Joker: Folie à Deux (2024)\n   - Harley Quinn (2019–present)\n   - Superman & Lois (2021–present)\n   - The Batman (2022) and The Batman – Part II (2026) as well as an in-development third The Batman film and spin-off series The Penguin, as well as an in-development series featuring the Gotham City Police Department\n   - A Black-led Superman film (planned)\n   - A sequel to the film Constantine (2005) (planned)\n   - All DC Universe Animated Original Movies\n   - Merry Little Batman (2023)\n   - An animated film based on the comic The Jurassic League (2022) (planned)"
+    summary: DC Elseworlds consists of DC adaptations that do not fit within the DCEU/DCU continuity.
   DC Extended Universe:
     template: {name: collection, trakt: twa96/lists/dceu, radarr: true}
     summary: The DC Extended Universe (DCEU) is an American media franchise and shared universe centered on a series of superhero films produced by DC Studios and distributed by Warner Bros. Pictures.
