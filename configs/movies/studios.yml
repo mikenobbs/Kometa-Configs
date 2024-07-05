@@ -27,8 +27,7 @@ collections:
     template:
       name: studio
       trakt_list: 
-        - https://trakt.tv/users/watertrooper/lists/pixar-movies
-        - https://trakt.tv/users/pullsa/lists/pixar-animation-studios-shorts
+        - https://trakt.tv/users/toasterfaerie/lists/pixar
         - https://trakt.tv/lists/official/toy-story-toons-collection
       movie: 979163
       radarr: true
