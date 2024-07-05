@@ -181,7 +181,7 @@ dynamic_collections:
       order:
         10: alpha       # Star Wars
       summary:
-        1241422: Miraculous is a series of the movies based on the Miraculous: Tales of Ladybug & Cat Noir by Thomas Astruc.   # Miraculous
+        1241422: "Miraculous is a series of the movies based on the Miraculous: Tales of Ladybug & Cat Noir by Thomas Astruc."   # Miraculous
         115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
       mode:
         1079241: hide   # Clifford the Big Red Dog
@@ -235,8 +235,7 @@ dynamic_collections:
       - 137696    # Monsters, Inc.
       - 87236     # Mulan
       - 55422     # Peter Pan
-      - 136214    # Pocahontas                                                                
-      - 768140    # Pokémon: Detective Pikachu  
+      - 136214    # Pocahontas                                                                  
       - 57971     # The Rescuers
       - 53159     # The Santa Clause                                                                                                       
       - 1006443   # Scooby-Doo
