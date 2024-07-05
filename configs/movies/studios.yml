@@ -11,9 +11,7 @@ templates:
       - radarr
     tmdb_movie: <<movie>>
     trakt_list: <<trakt>>
-    plex_search:
-      all:
-        collection.not: <<ignore>>
+    title.not: <<ignore>>
     radarr_add_missing: <<radarr>>
 
 collections:
@@ -38,7 +36,7 @@ collections:
       trakt:
         - https://trakt.tv/users/danj06/lists/disney-animated-movies-1937-2024
         - https://trakt.tv/users/asterlea/lists/disneytoon-studios
-      ignore: "Disney Pixar, Disney Live-Action"
+      ignore: Brave
     summary: Walt Disney Animation Studios, sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Walt Disney Studios lot in Burbank, California.
   Studio Ghibli:
     template: {name: studio, trakt: https://trakt.tv/users/asterlea/lists/studio-ghibli, movie: 1044343, radarr: true}
