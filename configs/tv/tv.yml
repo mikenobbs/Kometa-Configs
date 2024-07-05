@@ -8,18 +8,19 @@ templates:
       - show
       - tvdb
       - tvdbshow
-      - user
       - trakt
+      - imdb
       - sort
     tmdb_show: <<show>>
     tvdb_show: <<tvdbshow>>
     tvdb_list_details: https://thetvdb.com/lists/<<tvdb>>
-    trakt_list_details: https://trakt.tv/users/<<user>>/lists/<<trakt>>
+    trakt_list_details: https://trakt.tv/users/<<trakt>>
+    imdb_id: <<imdb>>
     sort_title: <<sort>>
 
 collections:
   Adventure Time:
-    template: {name: collection, show: "15260, 94810, 131378"}
+    template: {name: collection, show: "15260, 131378", imdb: tt11165358}
     summary: Adventure Time is an American animated fantasy franchise created by Pendleton Ward, set in the post-apocalyptic Land of Ooo.
   American Story:
     template: {name: collection, tvdb: 8411}
@@ -88,7 +89,7 @@ collections:
     template: {name: collection, tvdb: star-trek}
     summary: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series. 
   Star Wars:
-    template: {name: collection, tvdb: star-wars, show: "101978, 198109, 203085"}
+    template: {name: collection, tvdb: star-wars}
     summary: "An epic space-opera series, which depicts the adventures of various characters 'a long time ago in a galaxy far, far away….'"
   Supernatural:
     template: {name: collection, tvdb: supernatural}
@@ -106,5 +107,6 @@ collections:
   X-Men (Animated):
     template: {name: collection, tvdb: x-men-animated-series}
   Yellowstone:
-    template: {name: collection, show: "73586, 118357, 157744"}
+    template: {name: collection, tvdb: yellowstone}
+    title.not: Bass Reeves
     summary: "Yellowstone is an American neo-Western drama television series and follows the Dutton family, owners of the largest ranch in Montana, the Yellowstone Dutton Ranch, commonly called 'the Yellowstone'. Various spin-offs explore different generations of the Dutton family across differemt time periods."
