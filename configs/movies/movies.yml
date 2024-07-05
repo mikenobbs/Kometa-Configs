@@ -7,8 +7,6 @@ templates:
     optional:
       - collection
       - movie
-      - tvdb
-      - user
       - trakt
       - imdb
       - limit
