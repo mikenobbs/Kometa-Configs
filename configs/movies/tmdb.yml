@@ -28,6 +28,8 @@ dynamic_collections:
         - 135416   # Prometheus
       86066:       # Despicable Me
         - 544669   # Minions
+      1241422:     # Miraculous
+        - 822306   # Miraculous World
       34055:       # Pokémon
         - 661025   # Pokémon Advanced
         - 661026   # Pokémon Diamond and Pearl
@@ -119,6 +121,8 @@ dynamic_collections:
           - 333484     # Magnificent Seven (2016)
         2344:          # The Matrix
           - 55931      # Animatrix
+        99606:         # Mean Girls
+          - 673593     # Mean Girls Musical
         822306:        # Miraculous World
           - 496450     # Ladybug & Cat Noir, The Movie
         1733:          # The Mummy
@@ -142,6 +146,8 @@ dynamic_collections:
           - 68728      # Oz the Great and Powerful
         17255:         # Resident Evil
           - 460458     # Welcome to Racoon City
+        86486:         # Spy Kids
+          - 790493     # Armageddon
         10:            # Star Wars
           - 330459     # Rogue One 
           - 348350     # Solo
@@ -175,6 +181,7 @@ dynamic_collections:
       order:
         10: alpha       # Star Wars
       summary:
+        1241422: Miraculous is a series of the movies based on the Miraculous: Tales of Ladybug & Cat Noir by Thomas Astruc.   # Miraculous
         115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
       mode:
         1079241: hide   # Clifford the Big Red Dog
