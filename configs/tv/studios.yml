@@ -17,5 +17,5 @@ collections:
     template: {name: studio, trakt: fidel-cb/lists/a24}
     summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution.
   Disney Pixar:
-    template: {name: studio, tvdb: "72474, 84847, 249285, 371609, 368115, 393219, 362280, 412436, 393242"}
+    template: {name: studio, tvdb: "72474, 84847, 249285, 371609, 368115, 393212, 393219, 362280, 412436, 393242"}
     summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios owned by The Walt Disney Company. Pixar began in 1979 and was purchased by Disney in 2006 at a valuation of $7.4 billion. Pixar is best known for its feature films and animated shorts. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
