@@ -4,7 +4,10 @@
 
 templates:
   trakt:
+    optional:
+      - show
     trakt_list_details: <<trakt_user_lists>>
+    tvdb_show: <<show>>
 
 dynamic_collections:
   #Create collections based on the Trakt lists associated with the authenticated user.
@@ -13,3 +16,7 @@ dynamic_collections:
     type: trakt_user_lists
     data: me
     exclude: Stand-Up
+    template_variables:
+      show:
+        Tom and Jerry:
+          - 72860    # Tom and Jerry 1940
