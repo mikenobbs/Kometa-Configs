@@ -22,18 +22,13 @@ collections:
     template: {name: studio, trakt: redheadjedi/lists/walt-disney-live-action-movies}
     summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
   Disney Pixar:
-    template:
-      name: studio
-      movie: "16187, 979163"
-      radarr: true
+    template: {name: studio, movie: "16187, 979163", radarr: true}
     trakt_list:
       - https://trakt.tv/users/toasterfaerie/lists/pixar
       - https://trakt.tv/users/hoovdizzel/lists/toy-story
     summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios owned by The Walt Disney Company. Pixar began in 1979 and was purchased by Disney in 2006 at a valuation of $7.4 billion. Pixar is best known for its feature films and animated shorts. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
   Disney Animation:
-    template: 
-      name: studio 
-      ignore: Brave
+    template: {name: studio, ignore: Brave}
     trakt_list:
       - https://trakt.tv/users/danj06/lists/disney-animated-movies-1937-2024
       - https://trakt.tv/users/asterlea/lists/disneytoon-studios
