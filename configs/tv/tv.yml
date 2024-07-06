@@ -108,5 +108,5 @@ collections:
     template: {name: collection, tvdb: x-men-animated-series}
   Yellowstone:
     template: {name: collection, tvdb: yellowstone}
-    title.not: Bass Reeves
+    title.not: "Lawmen: Bass Reeves"
     summary: "Yellowstone is an American neo-Western drama television series and follows the Dutton family, owners of the largest ranch in Montana, the Yellowstone Dutton Ranch, commonly called 'the Yellowstone'. Various spin-offs explore different generations of the Dutton family across differemt time periods."
