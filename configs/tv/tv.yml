@@ -83,6 +83,8 @@ collections:
     summary: Looney Tunes is an American animated franchise produced and distributed by Warner Bros. It began as a series of short films that originally ran from 1930 to 1969, during the golden age of American animation.
   Pretty Little Liars:
     template: {name: collection, tvdb: pretty-little-liars}
+  Tom and Jerry:
+    template: {name: collection, trakt: mikenobbs/lists/tom-and-jerry, tvdbshow: 72860}
   Stargate:
     template: {name: collection, tvdb: stargate}
   Star Trek:
