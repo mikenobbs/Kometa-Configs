@@ -49,7 +49,7 @@ collections:
     template: {name: collection, tvdb: 8749}
   DC Animated Universe:
     template: {name: collection, tvdb: dc-animated-universe}
-    summary: "The DC Animated Universe (DCAU) is a shared universe consisting primarily of superhero-based animated television series, based on characters that appear in DC Comics. The shared universe, much like the original DC Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. The DCAU began with Batman: The Animated Series (1992–1995); it ended as a continuing TV series with Justice League Unlimited (2004–2006). The associated media franchise also includes theatrical and direct-to-video feature films, as well as shorts, comic books, video games, and other multimedia adaptations set in the same continuity."
+    summary: The DC Animated Universe (DCAU, also referred to as the Timmverse or Diniverse by fans) is a shared universe centered on a group of animated television series based on DC Comics and produced by Warner Bros. Animation.
   Dexter:
     template: {name: collection, tvdb: dexter}
     summary: "Dexter is an American crime drama television series. Set in Miami, the series centers on Dexter Morgan, a forensic technician specializing in bloodstain pattern analysis for the fictional Miami Metro Police Department, who leads a secret parallel life as a vigilante serial killer, hunting down murderers who have not been adequately punished by the justice system due to corruption or legal technicalities. Eight years after the series finale Dexter returned in the limited series Dexter: New Blood."
