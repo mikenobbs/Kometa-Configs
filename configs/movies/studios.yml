@@ -7,10 +7,12 @@ templates:
     optional:
       - movie
       - trakt
+      - mdblist
       - ignore
       - radarr
     tmdb_movie: <<movie>>
     trakt_list: https://trakt.tv/users/<<trakt>>
+    mdblist_list: https://mdblist.com/lists/<<mdblist>>
     title.not: <<ignore>>
     radarr_add_missing: <<radarr>>
 
@@ -28,10 +30,10 @@ collections:
       - https://trakt.tv/users/hoovdizzel/lists/toy-story
     summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios owned by The Walt Disney Company. Pixar began in 1979 and was purchased by Disney in 2006 at a valuation of $7.4 billion. Pixar is best known for its feature films and animated shorts. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
   Disney Animation:
-    template: {name: studio, ignore: Brave}
-    trakt_list:
-      - https://trakt.tv/users/danj06/lists/disney-animated-movies-1937-2024
-      - https://trakt.tv/users/asterlea/lists/disneytoon-studios
+    template: {name: studio, mdblist: fa11en82/disney-animated-films}
+    #trakt_list:
+      #- https://trakt.tv/users/danj06/lists/disney-animated-movies-1937-2024
+      #- https://trakt.tv/users/asterlea/lists/disneytoon-studios
     summary: Walt Disney Animation Studios, sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Walt Disney Studios lot in Burbank, California.
   Studio Ghibli:
     template: {name: studio, trakt: asterlea/lists/studio-ghibli, movie: 1044343, radarr: true}
