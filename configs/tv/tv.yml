@@ -104,8 +104,9 @@ collections:
     summary: Fight the dead. Fear the living. The Walking Dead is a zombie apocalypse media franchise based on the comic book series of the same name, created by writer Robert Kirkman and artist Tony Moore.
   The Witcher:
     template: {name: collection, tvdb: the-witcher, sort: Witcher}
-  X-Men (Animated):
+  X-Men:
     template: {name: collection, tvdb: x-men-animated-series}
+    summary: "X-Men: The Animated Series, is an animated superhero television series that aired for five seasons from October 31, 1992, to September 20, 1997. Set in the same fictional universe as Spider-Man, Earth-92131, it was followed by a revival, X-Men '97, which began airing on March 20, 2024."
   Yellowstone:
     template: {name: collection, tvdb: yellowstone}
     title.not: "Lawmen: Bass Reeves"
