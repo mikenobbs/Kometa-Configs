@@ -66,6 +66,9 @@ collections:
   Unbreakable:
     template: {name: collection, imdb: ls022101006, limit: 0}
     summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
+  Willy Wonka:
+    template: {name: collection, trakt: blazin887/lists/willy-wonka}
+    summary: Willy Wonka is a fictional character appearing in British author Roald Dahl's 1964 children's novel Charlie and the Chocolate Factory, its 1972 sequel Charlie and the Great Glass Elevator and several films based on those books. He is the eccentric founder and proprietor of the Wonka Chocolate Factory.
   Wizarding World:
     template: {name: collection, collection: "1241, 435259", order: alpha}
     summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
