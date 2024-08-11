@@ -66,6 +66,8 @@ dynamic_collections:
       87251: The Good Witch
       121938: The Hobbit
       131635: The Hunger Games
+      325470: The Lego Movie
+      1004630: Lego Star Wars
       119: The Lord of the Rings
       110021: The Magnificent Seven
       2344: The Matrix
@@ -78,6 +80,7 @@ dynamic_collections:
       394204: The Snowman
       275402: SpongeBob SquarePants
       115575: Star Trek
+      721111: U.S. Marshals
       627517: The Wizard of Oz
       683698: Zombies
     template_variables:
@@ -135,6 +138,8 @@ dynamic_collections:
         708816:        # Power Rangers
           - 305470     # Power Rangers (2017)
           - 1068141    # Once & Always
+        521226:        # Quiet Place
+          - 762441     # Quiet Place Day One
         656:           # Saw
           - 602734     # Spiral
         2150:          # Shrek
@@ -171,6 +176,7 @@ dynamic_collections:
         87251: Good Witch
         121938: Hobbit
         131635: Hunger Games
+        325470: Lego Movie
         119: Lord of the Rings
         110021: Magnificent Seven
         2344: Matrix
