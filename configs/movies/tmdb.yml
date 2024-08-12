@@ -66,7 +66,7 @@ dynamic_collections:
       87251: The Good Witch
       121938: The Hobbit
       131635: The Hunger Games
-      325470: The Lego Movie
+      325470: Lego Movies
       1004630: Lego Star Wars
       119: The Lord of the Rings
       110021: The Magnificent Seven
@@ -121,8 +121,6 @@ dynamic_collections:
           - 161143     # Madly Madagascar
           - 10258      # Penguins Christmas Caper
           - 270946     # Penguins of Madagascar
-        110021:        # Magnificent Seven
-          - 333484     # Magnificent Seven (2016)
         2344:          # The Matrix
           - 55931      # Animatrix
         99606:         # Mean Girls
@@ -176,7 +174,6 @@ dynamic_collections:
         87251: Good Witch
         121938: Hobbit
         131635: Hunger Games
-        325470: Lego Movie
         119: Lord of the Rings
         110021: Magnificent Seven
         2344: Matrix
@@ -188,7 +185,7 @@ dynamic_collections:
       order:
         10: alpha       # Star Wars
       summary:
-        1241422: "Miraculous is a series of the movies based on the Miraculous: Tales of Ladybug & Cat Noir by Thomas Astruc."   # Miraculous
+        1241422: "Miraculous is a series of movies based on the Miraculous: Tales of Ladybug & Cat Noir by Thomas Astruc."   # Miraculous
         115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
       mode:
         1079241: hide   # Clifford the Big Red Dog
