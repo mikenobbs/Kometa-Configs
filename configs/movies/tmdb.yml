@@ -85,6 +85,8 @@ dynamic_collections:
       683698: Zombies
     template_variables:
       movie:
+        8091:          # Alien
+          - 945961     # Alien Romulus
         1231053:       # Bad Guys
           - 981424     # Maraschino Ruby
           - 1046032    # Bad Holiday
