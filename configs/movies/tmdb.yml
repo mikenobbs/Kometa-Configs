@@ -189,10 +189,8 @@ dynamic_collections:
       summary:
         1241422: "Miraculous is a series of movies based on the Miraculous: Tales of Ladybug & Cat Noir by Thomas Astruc."   # Miraculous
         115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
-      mode:
-        1079241: hide   # Clifford the Big Red Dog
-      minimum:
-        1079241: 1      # Clifford the Big Red Dog
+      #mode:
+      #minimum:
     exclude:
       - 100693    # 101 Dalmatians (Animated)                                         
       - 124916    # 101 Dalmatians (Live-Action) 
@@ -266,3 +264,4 @@ dynamic_collections:
       - 1246022   # Peanuts
       - 1272685   # Muppets
       - 1329522   # Dollars Trilogy
+      - 1079241   # Clifford the Big Red Dog
