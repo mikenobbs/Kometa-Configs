@@ -12,7 +12,7 @@ templates:
       all:
         episode_label: <<smart_label>>
     builder_level: episode
-    trakt_list: https://trakt.tv/users/<<trakt>>
+    trakt_list: <<trakt>>
     imdb_list: https://www.imdb.com/<<imdb>>
     schedule: range(<<schedule>>)
     summary: >-
