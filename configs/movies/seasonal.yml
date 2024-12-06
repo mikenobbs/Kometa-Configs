@@ -31,5 +31,5 @@ collections:
       season: Christmas
       schedule: 11/01-12/31
       trakt: 
-        - https://trakt.tv/users/plexmetamanager/lists/christmas-extravaganza-non-tv-movie
-        - https://trakt.tv/users/ubjeckle/lists/christmas-movies?sort=rank,asc
+        - https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie
+        - https://trakt.tv/users/ubjeckle/lists/christmas-movies
