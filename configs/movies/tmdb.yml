@@ -45,6 +45,8 @@ dynamic_collections:
         - 939352   # Rise of the Beasts
       489724:      # Trolls
         - 1184152  # Trolls Holiday
+      529:         # Wallace & Gromit
+        - 1403306  # Wallace & Gromit Movies
       748:         # X-Men
         - 453993   # The Wolverine
         - 448150   # Deadpool
@@ -81,6 +83,7 @@ dynamic_collections:
       275402: SpongeBob SquarePants
       115575: Star Trek
       721111: U.S. Marshals
+      1304326: Watchmen (Animated)
       627517: The Wizard of Oz
       683698: Zombies
     template_variables:
