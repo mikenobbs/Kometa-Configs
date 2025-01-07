@@ -234,7 +234,7 @@ dynamic_collections:
       - 97460     # Lady and the Tramp
       - 97461     # Lilo & Stitch                                                             
       - 94032     # The Lion King                                                                       
-      - 762512    # The Lion King (Reboot)                                                     
+      - 762512    # The Lion King (Live Action)                                                     
       - 33085     # The Little Mermaid 
       - 531331    # Maleficent            
       - 209131    # Man of Steel
@@ -269,3 +269,4 @@ dynamic_collections:
       - 1329522   # Dollars Trilogy
       - 1079241   # Clifford the Big Red Dog
       - 861429    # Jungle Cruise
+      - 1326786   # Wolfs
