@@ -227,7 +227,8 @@ dynamic_collections:
       - 978459    # Hercules
       - 97456     # The Hunchback of Notre Dame  
       - 468222    # The Incredibles
-      - 131292    # Iron Man                                                     
+      - 131292    # Iron Man    
+      - 1022790   # Inside Out                                                 
       - 285564    # Jarhead                                                       
       - 307637    # Jingle All the Way                                                     
       - 97459     # The Jungle Book   
@@ -239,6 +240,7 @@ dynamic_collections:
       - 531331    # Maleficent            
       - 209131    # Man of Steel
       - 527439    # Mary Poppins
+      _ 1241984   # Moana
       - 137696    # Monsters, Inc.
       - 87236     # Mulan
       - 55422     # Peter Pan
@@ -270,3 +272,4 @@ dynamic_collections:
       - 1079241   # Clifford the Big Red Dog
       - 861429    # Jungle Cruise
       - 1326786   # Wolfs
+      - 1415503   # Revisionist Trilogy
