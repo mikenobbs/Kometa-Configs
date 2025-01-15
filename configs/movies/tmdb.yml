@@ -45,8 +45,6 @@ dynamic_collections:
         - 939352   # Rise of the Beasts
       489724:      # Trolls
         - 1184152  # Trolls Holiday
-      529:         # Wallace & Gromit
-        - 1403306  # Wallace & Gromit Movies
       748:         # X-Men
         - 453993   # The Wolverine
         - 448150   # Deadpool
@@ -162,6 +160,9 @@ dynamic_collections:
           - 348350     # Solo
         8650:          # Transformers
           - 424783     # Bumblebee
+        529:           # Wallace & Gromit
+          - 533        # Were-Rabbit
+          - 929204     # Vengeance Most Fowl
         748:           # X-Men
           - 340102     # New Mutants
       sort:
