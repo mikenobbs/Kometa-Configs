@@ -241,7 +241,7 @@ dynamic_collections:
       - 531331    # Maleficent            
       - 209131    # Man of Steel
       - 527439    # Mary Poppins
-      _ 1241984   # Moana
+      - 1241984   # Moana
       - 137696    # Monsters, Inc.
       - 87236     # Mulan
       - 55422     # Peter Pan
