@@ -8,7 +8,7 @@ templates:
       sort_by: release.desc
       all:
         label: <<smart_label>>
-    sort_title: +++<<collection_name>>
+    sort_title: ++++<<collection_name>>
     
 collections:
   Oscars:
