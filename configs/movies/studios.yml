@@ -15,7 +15,7 @@ templates:
     tmdb_movie: <<movie>>
     trakt_list: https://trakt.tv/users/<<trakt>>
     radarr_add_missing: <<radarr>>
-    sort_title: ++++<<collection_name>>
+    sort_title: +<<collection_name>>
 
 collections:
   A24:
