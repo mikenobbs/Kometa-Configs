@@ -196,58 +196,24 @@ dynamic_collections:
       #mode:
       #minimum:
     exclude:
-      - 100693    # 101 Dalmatians (Animated)                                         
-      - 124916    # 101 Dalmatians (Live-Action) 
-      - 86027     # Aladdin
-      - 748401    # Aladdin (Live Action)
       - 312735    # Annie
       - 422834    # Ant-Man
       - 573693    # Aquaman
       - 86311     # The Avengers
-      - 87250     # Bambi
       - 379475    # Batman Beyond
-      - 421904    # Batman DCAU
-      - 153010    # Beauty and the Beast                                                
+      - 421904    # Batman DCAU                                                
       - 529892    # Black Panther
       - 131295    # Captain America
       - 623911    # Captain Marvel
-      - 87118     # Cars
-      - 8819      # Casper   
-      - 1028525   # Charlie Brown
-      - 55419     # Cinderella                                                              
-      - 837007    # Cruella   
+      - 1028525   # Charlie Brown   
       - 593251    # Death of Superman
       - 618529    # Doctor Strange
-      - 531799    # Enchanted              
-      - 178117    # The Emperor's New Groove   
-      - 137697    # Finding Nemo                                            
-      - 100970    # The Fox and the Hound
-      - 386382    # Frozen
       - 535313    # Godzilla
       - 284433    # Guardians of the Galaxy
-      - 978459    # Hercules
-      - 97456     # The Hunchback of Notre Dame  
-      - 468222    # The Incredibles
-      - 131292    # Iron Man    
-      - 1022790   # Inside Out                                                 
+      - 131292    # Iron Man                                                     
       - 285564    # Jarhead                                                       
-      - 307637    # Jingle All the Way                                                     
-      - 97459     # The Jungle Book   
-      - 97460     # Lady and the Tramp
-      - 97461     # Lilo & Stitch                                                             
-      - 94032     # The Lion King                                                                       
-      - 762512    # The Lion King (Live Action)                                                     
-      - 33085     # The Little Mermaid 
-      - 531331    # Maleficent            
-      - 209131    # Man of Steel
-      - 527439    # Mary Poppins
-      - 1241984   # Moana
-      - 137696    # Monsters, Inc.
-      - 87236     # Mulan
-      - 55422     # Peter Pan
-      - 136214    # Pocahontas                                                                  
-      - 57971     # The Rescuers
-      - 53159     # The Santa Clause                                                                                                       
+      - 307637    # Jingle All the Way                                                                 
+      - 209131    # Man of Steel                                                                                                       
       - 1006443   # Scooby-Doo
       - 869205    # Scooby-Doo WWE
       - 762458    # Scooby-Doo Zombie Island   
@@ -259,18 +225,7 @@ dynamic_collections:
       - 290933    # Superman/Batman
       - 729425    # Team Thor   
       - 131296    # Thor       
-      - 123694    # Timon and Pumbaa
-      - 10194     # Toy Story
       - 109608    # Van Helsing
       - 468552    # Wonder Woman
-      - 404825    # Wreck-It Ralph
       # Cached errors
-      - 1011336   # Eternals
-      - 1051005   # Greyhound
-      - 1246022   # Peanuts
-      - 1272685   # Muppets
-      - 1329522   # Dollars Trilogy
-      - 1079241   # Clifford the Big Red Dog
-      - 861429    # Jungle Cruise
-      - 1326786   # Wolfs
-      - 1415503   # Revisionist Trilogy
+      - 1005134   # Gray Man
