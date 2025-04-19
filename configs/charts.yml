@@ -21,21 +21,21 @@ templates:
         unplayed<<episodes>>: true
       sort_by: release.desc
     summary: "Collection of <<library_type>>s that haven't been watched<<description>>."
-    sort_title: +++++<<collection_name>>
+    sort_title: ++++++<<collection_name>>
   imdb:
     imdb_chart: <<chart>>_<<library_type>>s
     smart_label:
       sort_by: audience_rating.desc
       all:
         label: <<smart_label>>
-    sort_title: ++++<<collection_name>>
+    sort_title: +++++<<collection_name>>
     summary: The top 250 best <<library_type>>s of all time based on IMDb user ratings.
   charts:
     smart_label:
       sort_by: release.desc
       all:
         label: <<smart_label>>
-    sort_title: ++++<<collection_name>>
+    sort_title: +++++<<collection_name>>
     summary: Collection of <<library_type>>s trending this week on <<website>>, updated every Monday.
     schedule: weekly(monday)
 
