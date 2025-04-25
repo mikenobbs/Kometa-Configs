@@ -41,8 +41,6 @@ dynamic_collections:
       115575:      # Star Trek: Alternate Reality                                          
         - 151      # Star Trek: The Original Series                                               
         - 115570   # Star Trek: The Next Generation
-      8650:        # Transformers
-        - 939352   # Rise of the Beasts
       489724:      # Trolls
         - 1184152  # Trolls Holiday
       748:         # X-Men
@@ -91,6 +89,8 @@ dynamic_collections:
         1231053:       # Bad Guys
           - 981424     # Maraschino Ruby
           - 1046032    # Bad Holiday
+          - 1329336    # Haunted Heist
+          - 1417421    # Little Lies and Alibis
         466463:        # Descendants
           - 805411     # The Royal Wedding
         9485:          # Fast & Furious
@@ -117,7 +117,7 @@ dynamic_collections:
         77816:         # Kung Fu Panda
           - 50393      # King Fu Panda Holiday   
           - 81003      # Secrets of the Masters
-        325470:        # Lego Movie
+        325470:        # Lego Movies
           - 324849     # Lego Batman Movie
         14740:         # Madagascar
           - 25472      # Merry Madagascar
@@ -141,6 +141,8 @@ dynamic_collections:
           - 1068141    # Once & Always
         521226:        # Quiet Place
           - 762441     # Quiet Place Day One
+        17255:         # Resident Evil
+          - 460458     # Welcome to Racoon City
         656:           # Saw
           - 602734     # Spiral
         2150:          # Shrek
@@ -148,11 +150,6 @@ dynamic_collections:
           - 25523      # Ghost of Lord Farquaad
           - 48466      # Scared Shrekless
           - 51256      # Shrektacular
-        627517:        # Wizard of Oz
-          - 13155      # Return to Oz
-          - 68728      # Oz the Great and Powerful
-        17255:         # Resident Evil
-          - 460458     # Welcome to Racoon City
         86486:         # Spy Kids
           - 790493     # Armageddon
         10:            # Star Wars
@@ -160,6 +157,10 @@ dynamic_collections:
           - 348350     # Solo
         8650:          # Transformers
           - 424783     # Bumblebee
+          - 667538     # Rise of the Beasts
+        627517:        # Wizard of Oz
+          - 13155      # Return to Oz
+          - 68728      # Oz the Great and Powerful
         529:           # Wallace & Gromit
           - 533        # Were-Rabbit
           - 929204     # Vengeance Most Fowl
@@ -229,3 +230,4 @@ dynamic_collections:
       - 468552    # Wonder Woman
       # Cached errors
       - 1005134   # Gray Man
+      - 1402107   # Barbie - Saga
