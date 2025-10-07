@@ -3,14 +3,16 @@
 ######################################################
 
 templates:
-  studio:
+  smart-studio:
     smart_label:
       sort_by: release.asc
       all:
         label: <<smart_label>>
+    trakt_list: https://trakt.tv/users/<<trakt>>
+    sort_title: +<<collection_name>>
+  studio:
     optional:
       - movie
-      - trakt
       - radarr
     tmdb_movie: <<movie>>
     trakt_list: https://trakt.tv/users/<<trakt>>
@@ -19,7 +21,7 @@ templates:
 
 collections:
   A24:
-    template: {name: studio, trakt: fidel-cb/lists/a24}
+    template: {name: smart-studio, trakt: vancityguy/lists/a24}
     summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution.
   Disney Animation Studios:
     template: {name: studio, trakt: jashack/lists/walt-disney-animation-studios, radarr: true}
