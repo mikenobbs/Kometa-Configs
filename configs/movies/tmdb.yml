@@ -91,10 +91,17 @@ dynamic_collections:
           - 1046032    # Bad Holiday
           - 1329336    # Haunted Heist
           - 1417421    # Little Lies and Alibis
+        87118:         # Cars
+          - 13934      # Mater and the Ghostlight
         466463:        # Descendants
           - 805411     # The Royal Wedding
         9485:          # Fast & Furious
           - 384018     # Hobbs & Shaw
+        386382:        # Frozen
+          - 326359     # Frozen Fever
+          - 431562     # LEGO Northern Lights
+          - 460793     # Olaf's Frozen Adventure
+          - 1549292    # LEGO Operation Puffins
         1241:          # Harry Potter
           - 899082     # 20th Anniversary
         9888:          # Home Alone
@@ -104,6 +111,11 @@ dynamic_collections:
           - 46247      # No Time for Nuts
           - 387893     # Egg-Scapade
           - 79218      # Mammoth Christams
+        468222:        # The Incredibles
+          - 13932      # Jack-Jack Attack
+          - 546728     # Auntie Edna
+        1022790:       # Inside Out
+          - 355338     # Riley's First Date
         70068:         # IP Man
           - 658009     # Kung Fu Master
           - 643413     # Four Kings
@@ -114,9 +126,11 @@ dynamic_collections:
           - 44865      # The Grandmaster
         328:           # Jurassic Park
           - 630322     # Battle at Big Rock
-        77816:         # Kung Fu Panda
-          - 50393      # King Fu Panda Holiday   
+        77816:         # Kung Fu Panda  
+          - 15854.      # Secrets of the Furious Five
           - 81003      # Secrets of the Masters
+          - 50393      # Kung Fu Panda Holiday
+          - 381693     # Secrets of the Scrill
         325470:        # Lego Movies
           - 324849     # Lego Batman Movie
         14740:         # Madagascar
@@ -130,6 +144,9 @@ dynamic_collections:
           - 673593     # Mean Girls Musical
         822306:        # Miraculous World
           - 496450     # Ladybug & Cat Noir, The Movie
+        137696:        # Monsters Inc
+          - 13931      # Mike's New Car
+          - 258152     # Party Central
         1733:          # The Mummy
           - 9334       # Scorpion King
         304:           # Ocean's
@@ -150,11 +167,18 @@ dynamic_collections:
           - 25523      # Ghost of Lord Farquaad
           - 48466      # Scared Shrekless
           - 51256      # Shrektacular
+        275402:        # SpongeBob
+          - 831815     # Sandy Cheeks
+          - 1104845    # Plankton
         86486:         # Spy Kids
           - 790493     # Armageddon
         10:            # Star Wars
           - 330459     # Rogue One 
           - 348350     # Solo
+        1268789:       # Tangled 
+          - 82881      # Tangled Ever After
+        10194:         # Toy Story
+          - 594530     # Lamp Life
         8650:          # Transformers
           - 424783     # Bumblebee
           - 667538     # Rise of the Beasts
@@ -232,3 +256,7 @@ dynamic_collections:
       - 1005134   # Gray Man
       - 1402107   # Barbie - Saga
       - 939352    # Rise of the Beasts
+      - 726865    # Baby Driver
+      - 1536588   # Kpop Demon Hunters
+      - 1064555   # DreamWorks Bible Stories
+      - 1489663   # Sinners
