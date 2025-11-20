@@ -25,7 +25,7 @@ templates:
 
 collections:
   Brave:
-    template: {name: collection, tmdb: "62177, 141423"}
+    template: {name: collection, movie: "62177, 141423"}
     summary: Brave is a franchise by Disney·Pixar which centres around the 2012 animated film Brave, which was expanded upon with an animated short.
   Charlie Brown:
     template: {name: collection, trakt: benfishbus/lists/peanuts}
@@ -34,7 +34,7 @@ collections:
     template: {name: collection, imdb: ls096108041, limit: 0}
     summary: "Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the 'Cloververse'. The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space."
   Coco:
-    template: {name: collection, tmdb: "354912, 449621"}
+    template: {name: collection, movie: "354912, 449621"}
     summary: Coco is a franchise by Disney·Pixar which centres around the 2017 animated film Coco, which was expanded upon with an animated short.
   The Cornetto Trilogy:
     template: {name: collection, sort: "Cornetto Trilogy", imdb: ls068623110, limit: 0}
@@ -58,7 +58,7 @@ collections:
     template: {name: collection, imdb: ls022264056, limit: 0}
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
   Luca:
-    template: {name: collection, tmdb: "508943, 876716"}
+    template: {name: collection, movie: "508943, 876716"}
     summary: Luca is a franchise by Disney·Pixar which centres around the 2021 animated film Luca, which was expanded upon with an animated short.
   Middle-Earth:
     template: {name: collection, collection: "121938, 119", order: alpha}
@@ -70,13 +70,13 @@ collections:
     template: {name: collection, imdb: ls072012494, limit: 0}
     summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies.
   Ratatouille:
-    template: {name: collection, tmdb: "2062, 13061"}
+    template: {name: collection, movie: "2062, 13061"}
     summary: Ratatouille is a franchise by Disney·Pixar which centres around the 2007 animated film Ratatouille, which was expanded upon with an animated short.
   Sabrina the Teenage Witch:
-    template: {name: collection, tmdb: "15674, 33271, 32874, 158742"}
+    template: {name: collection, movie: "15674, 33271, 32874, 158742"}
     summary: "The Sabrina the Teenage Witch franchise includes a live-action TV movie from 1996, the live-action TV series that followed, and two live-action TV sequel films, Sabrina Goes to Rome (1998) and Sabrina Down Under (1999). There is also an animated film, Sabrina: Friends Forever (2002), and three separate animated series."
   Soul:
-    template: {name: collection, tmdb: "508442, 811367"}
+    template: {name: collection, movie: "508442, 811367"}
     summary: Soul is a franchise by Disney·Pixar which centres around the 2020 animated film Soul, which was expanded upon with an animated short.
   Taylor Swift:
     template: {name: collection, movie: "80009, 373558, 568332, 653567, 701684, 768141, 1160164"}
@@ -85,10 +85,10 @@ collections:
     template: {name: collection, imdb: ls022101006, limit: 0}
     summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
   UP:
-    template: {name: collection, tmdb: "14160, 24589, 72962, 1076364"}
+    template: {name: collection, movie: "14160, 24589, 72962, 1076364"}
     summary: UP is a franchise by Disney·Pixar which centres around the 2009 animated film UP, which has since expanded into animated shorts and spin-offs.
   WALL·E: 
-    template: {name: collection, tmdb: "10681, 13413"}
+    template: {name: collection, movie: "10681, 13413"}
     summary: WALL·E is a franchise by Disney·Pixar which centres around the 2008 animated film WALL·E, which was expanded upon with an animated short.
   Willy Wonka:
     template: {name: collection, trakt: blazin887/lists/willy-wonka}
