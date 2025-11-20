@@ -70,7 +70,7 @@ collections:
     template: {name: collection, imdb: ls072012494, limit: 0}
     summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies.
   The Muppets:
-    template: {name: collection, trakt: mrjohnnycake/lists/the-muppets, sort: Muppets}
+    template: {name: collection, sort: "Muppets", trakt: mrjohnnycake/lists/the-muppets}
     summary: The Muppets are an American ensemble cast of puppet characters known for an absurdist, slapstick, burlesque, and self-referential style of musical variety-sketch comedy. Created by Jim Henson in 1955, the eponymous media franchise encompasses films, television, music, and other media associated with the characters.
   Ratatouille:
     template: {name: collection, movie: "2062, 13061"}
