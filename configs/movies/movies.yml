@@ -87,9 +87,9 @@ collections:
   Unbreakable:
     template: {name: collection, imdb: ls022101006, limit: 0}
     summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
-  UP:
+  Up:
     template: {name: collection, movie: "14160, 24589, 72962, 1076364"}
-    summary: UP is a franchise by Disney·Pixar which centres around the 2009 animated film UP, which has since expanded into animated shorts and spin-offs.
+    summary: Up is a franchise by Disney·Pixar which centres around the 2009 animated film Up, which has since expanded into animated shorts and spin-offs.
   WALL·E: 
     template: {name: collection, movie: "10681, 13413"}
     summary: WALL·E is a franchise by Disney·Pixar which centres around the 2008 animated film WALL·E, which was expanded upon with an animated short.
